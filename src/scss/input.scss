@@ -1,0 +1,205 @@
+// Testing CLI -- Test 003
+
+// ##### VARIABLES START #####
+
+    // Site wide variables start
+
+    $header-font: 'Questrial', sans-serif;
+    $header-font-size: 20px;
+
+    $content-font: 'Questrial', sans-serif;
+    $content-font-size: 12px;
+
+    $dark-color: #231f20;
+    $light-color: #eaeaea;
+    $nav-color: #92ba8f;
+
+    $animation-fill-mode: forwards;
+
+    // Site wide variables end
+
+    // Mobile variables start
+
+    $mobile-top-to-bottom-img-move-name: mobile-logo-animation;
+    $mobile-top-to-bottom-img-move-start-pos: -100%;
+    $mobile-top-to-bottom-img-move-end-pos: 25%;
+    $mobile-top-to-bottom-img-move-duration: 2000ms;
+
+    // Mobile variables end
+
+    // Desktop variables start
+
+    $desktop-left-to-right-img-move-name: desktop-logo-animation;
+    $desktop-left-to-right-img-move-start-pos: -100%;
+    $desktop-left-to-right-img-move-end-pos: 40%;
+    $desktop-left-to-right-img-move-duration: 2000ms;
+
+    // Desktop variables end
+
+
+// ##### VARIABLES END #####
+
+// ##### MIXINS START #####
+
+    // Mobile mixins start
+
+    @mixin mobile-logo-animation-properties {
+        -webkit-animation-name: $mobile-top-to-bottom-img-move-name;
+        -moz-animation-name: $mobile-top-to-bottom-img-move-name;
+        -o-animation-name: $mobile-top-to-bottom-img-move-name;
+        -ms-animation-name: $mobile-top-to-bottom-img-move-name;
+        animation-name: $mobile-top-to-bottom-img-move-name;
+        -webkit-animation-duration: $mobile-top-to-bottom-img-move-duration;
+        -moz-animation-duration: $mobile-top-to-bottom-img-move-duration;
+        -o-animation-duration: $mobile-top-to-bottom-img-move-duration;
+        -ms-animation-duration: $mobile-top-to-bottom-img-move-duration;
+        animation-duration: $mobile-top-to-bottom-img-move-duration;
+        -webkit-animation-fill-mode: $animation-fill-mode;
+        -moz-animation-fill-mode: $animation-fill-mode;
+        -o-animation-fill-mode: $animation-fill-mode;
+        -ms-animation-fill-mode: $animation-fill-mode;
+        animation-fill-mode: $animation-fill-mode;
+    }
+
+    @mixin mobile-logo-animation-moves {
+        @-webkit-keyframes #{$mobile-top-to-bottom-img-move-name} {
+            0%{margin-top: $mobile-top-to-bottom-img-move-start-pos;}
+            100%{margin-top: $mobile-top-to-bottom-img-move-end-pos;}
+        }
+        @-moz-keyframes #{$mobile-top-to-bottom-img-move-name} {
+            0%{margin-top: $mobile-top-to-bottom-img-move-start-pos;}
+            100%{margin-top: $mobile-top-to-bottom-img-move-end-pos;}
+        }
+        @-o-keyframes #{$mobile-top-to-bottom-img-move-name} {
+            0%{margin-top: $mobile-top-to-bottom-img-move-start-pos;}
+            100%{margin-top: $mobile-top-to-bottom-img-move-end-pos;}
+        }
+        @-ms-keyframes #{$mobile-top-to-bottom-img-move-name} {
+            0%{margin-top: $mobile-top-to-bottom-img-move-start-pos;}
+            100%{margin-top: $mobile-top-to-bottom-img-move-end-pos;}
+        }
+        @keyframes #{$mobile-top-to-bottom-img-move-name} {
+            0%{margin-top: $mobile-top-to-bottom-img-move-start-pos;}
+            100%{margin-top: $mobile-top-to-bottom-img-move-end-pos;}
+        }
+    }
+
+    // Mobile mixins end
+
+    // Desktop mixins start
+
+    @mixin desktop-logo-animation-properties {
+        -webkit-animation-name: $desktop-left-to-right-img-move-name;
+        -moz-animation-name: $desktop-left-to-right-img-move-name;
+        -o-animation-name: $desktop-left-to-right-img-move-name;
+        -ms-animation-name: $desktop-left-to-right-img-move-name;
+        animation-name: $desktop-left-to-right-img-move-name;
+        -webkit-animation-duration: $desktop-left-to-right-img-move-duration;
+        -moz-animation-duration: $desktop-left-to-right-img-move-duration;
+        -o-animation-duration: $desktop-left-to-right-img-move-duration;
+        -ms-animation-duration: $desktop-left-to-right-img-move-duration;
+        animation-duration: $desktop-left-to-right-img-move-duration;
+        -webkit-animation-fill-mode: $animation-fill-mode;
+        -moz-animation-fill-mode: $animation-fill-mode;
+        -o-animation-fill-mode: $animation-fill-mode;
+        -ms-animation-fill-mode: $animation-fill-mode;
+        animation-fill-mode: $animation-fill-mode;
+    }
+
+    @mixin desktop-logo-animation-moves {
+        @-webkit-keyframes #{$desktop-left-to-right-img-move-name} {
+            0%{margin-left: $desktop-left-to-right-img-move-start-pos;}
+            100%{margin-left: $desktop-left-to-right-img-move-end-pos;}
+        }
+        @-moz-keyframes #{$desktop-left-to-right-img-move-name} {
+            0%{margin-left: $desktop-left-to-right-img-move-start-pos;}
+            100%{margin-left: $desktop-left-to-right-img-move-end-pos;}
+        }
+        @-o-keyframes #{$desktop-left-to-right-img-move-name} {
+            0%{margin-left: $desktop-left-to-right-img-move-start-pos;}
+            100%{margin-left: $desktop-left-to-right-img-move-end-pos;}
+        }
+        @-ms-keyframes #{$desktop-left-to-right-img-move-name} {
+            0%{margin-left: $desktop-left-to-right-img-move-start-pos;}
+            100%{margin-left: $desktop-left-to-right-img-move-end-pos;}
+        }
+        @keyframes #{$desktop-left-to-right-img-move-name} {
+            0%{margin-left: $desktop-left-to-right-img-move-start-pos;}
+            100%{margin-left: $desktop-left-to-right-img-move-end-pos;}
+        }
+    }
+
+    // Desktop mixins end
+
+// ##### MIXINS END #####
+
+// #####  IDS AND CLASSES START #####
+
+    // Sitewide
+
+    .html, body {
+        background-color: $light-color;
+        margin: 0;
+        padding: 0;
+    }
+
+    // Defines each section.
+
+    #section {
+        height: auto;
+        font-family: $content-font;
+    }
+
+    // Defines a specific section, in this case, the loading page.
+
+    #loading {
+        @extend #section;
+        background-color: $light-color;
+        color: $dark-color;
+        font-size: $content-font-size;
+    }
+
+    .loading-statements {
+        color: $dark-color;
+        font-family: $content-font;
+        display: none;
+    }
+
+    .loading-statement-one, .loading-statement-two, .loading-statement-three {
+        @extend .loading-statements;
+        font-size: 14px;
+    }
+    .continue-button {
+        @extend .loading-statements;
+        background-color: $light-color;
+        font-size: 18px;
+        border: none;
+        margin-top: 15%;
+    }
+
+    .continue-button:hover {
+        background-color: $nav-color;
+        color: $light-color;
+    }
+
+    // Mobile only
+
+    .mobile-logo-animation-moves {
+        @include mobile-logo-animation-moves;
+    }
+
+    .mobile-logo-animation {
+        @include mobile-logo-animation-properties;
+    }
+
+    // Desktop only
+
+    .desktop-logo-animation-moves {
+        @include desktop-logo-animation-moves;
+    }
+
+    .desktop-logo-animation {
+        @include desktop-logo-animation-properties;
+    }
+
+// #####  IDS AND CLASSES END #####
