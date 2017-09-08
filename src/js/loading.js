@@ -1,13 +1,13 @@
 $(function() {
-    $(".loading-statement-one").delay(1500).fadeIn(500);
+    $(".loading-statement-one").delay(1000).fadeIn(500);
 });
 
 $(function() {
-    $(".loading-statement-two").delay(1500).fadeIn(500);
+    $(".loading-statement-two").delay(1000).fadeIn(500);
 });
 
 $(function() {
-    $(".loading-statement-three").delay(1500).fadeIn(500);
+    $(".loading-statement-three").delay(1000).fadeIn(500);
 });
 
 $(function() {
