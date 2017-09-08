@@ -6,13 +6,15 @@
 #section, #home {
   height: auto;
   font-family: "Questrial", sans-serif;
+  font-size: 12px;
   background-image: url("../imgs/pattern.jpg");
-  background-repeat: repeat-y;
+  background-repeat: repeat-y; }
+
+.section-overlay {
   z-index: 1; }
 
 #home {
   color: #231f20;
-  font-size: 12px;
   background-color: rgba(234, 234, 234, 0.8);
   z-index: 2; }
 

@@ -60,8 +60,12 @@
     #section {
         height: auto;
         font-family: $content-font;
+        font-size: $content-font-size;
         background-image: $background-img;
         background-repeat: repeat-y;
+    }
+
+    .section-overlay {
         z-index: 1;
     }
 
@@ -70,7 +74,6 @@
     #home {
         @extend #section;
         color: $dark-color;
-        font-size: $content-font-size;
         background-color: $light-img-overlay;
         z-index: 2;
     }
