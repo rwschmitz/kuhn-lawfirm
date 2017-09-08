@@ -5,7 +5,7 @@
     // Site wide variables start
 
     $header-font: 'Questrial', sans-serif;
-    $header-font-size: 30px;
+    $header-font-size: 18px;
 
     $content-font: 'Questrial', sans-serif;
     $content-font-size: 12px;
@@ -20,19 +20,9 @@
 
     // Mobile variables start
 
-    $mobile-top-to-bottom-img-move-name: mobile-logo-animation;
-    $mobile-top-to-bottom-img-move-start-pos: -100%;
-    $mobile-top-to-bottom-img-move-end-pos: 25%;
-    $mobile-top-to-bottom-img-move-duration: 1500ms;
-
     // Mobile variables end
 
     // Desktop variables start
-
-    $desktop-img-opacity-name: desktop-logo-animation;
-    $desktop-img-start-opacity: 0;
-    $desktop-img-end-opacity: 1;
-    $desktop-img-opacity-duration: 1500ms;
 
     // Desktop variables end
 
@@ -43,91 +33,9 @@
 
     // Mobile mixins start
 
-    @mixin mobile-logo-animation-properties {
-        -webkit-animation-name: $mobile-top-to-bottom-img-move-name;
-        -moz-animation-name: $mobile-top-to-bottom-img-move-name;
-        -o-animation-name: $mobile-top-to-bottom-img-move-name;
-        -ms-animation-name: $mobile-top-to-bottom-img-move-name;
-        animation-name: $mobile-top-to-bottom-img-move-name;
-        -webkit-animation-duration: $mobile-top-to-bottom-img-move-duration;
-        -moz-animation-duration: $mobile-top-to-bottom-img-move-duration;
-        -o-animation-duration: $mobile-top-to-bottom-img-move-duration;
-        -ms-animation-duration: $mobile-top-to-bottom-img-move-duration;
-        animation-duration: $mobile-top-to-bottom-img-move-duration;
-        -webkit-animation-fill-mode: $animation-fill-mode;
-        -moz-animation-fill-mode: $animation-fill-mode;
-        -o-animation-fill-mode: $animation-fill-mode;
-        -ms-animation-fill-mode: $animation-fill-mode;
-        animation-fill-mode: $animation-fill-mode;
-    }
-
-    @mixin mobile-logo-animation-moves {
-        @-webkit-keyframes #{$mobile-top-to-bottom-img-move-name} {
-            0%{margin-top: $mobile-top-to-bottom-img-move-start-pos;}
-            100%{margin-top: $mobile-top-to-bottom-img-move-end-pos;}
-        }
-        @-moz-keyframes #{$mobile-top-to-bottom-img-move-name} {
-            0%{margin-top: $mobile-top-to-bottom-img-move-start-pos;}
-            100%{margin-top: $mobile-top-to-bottom-img-move-end-pos;}
-        }
-        @-o-keyframes #{$mobile-top-to-bottom-img-move-name} {
-            0%{margin-top: $mobile-top-to-bottom-img-move-start-pos;}
-            100%{margin-top: $mobile-top-to-bottom-img-move-end-pos;}
-        }
-        @-ms-keyframes #{$mobile-top-to-bottom-img-move-name} {
-            0%{margin-top: $mobile-top-to-bottom-img-move-start-pos;}
-            100%{margin-top: $mobile-top-to-bottom-img-move-end-pos;}
-        }
-        @keyframes #{$mobile-top-to-bottom-img-move-name} {
-            0%{margin-top: $mobile-top-to-bottom-img-move-start-pos;}
-            100%{margin-top: $mobile-top-to-bottom-img-move-end-pos;}
-        }
-    }
-
     // Mobile mixins end
 
     // Desktop mixins start
-
-    @mixin desktop-logo-animation-properties {
-        -webkit-animation-name: $desktop-img-opacity-name;
-        -moz-animation-name: $desktop-img-opacity-name;
-        -o-animation-name: $desktop-img-opacity-name;
-        -ms-animation-name: $desktop-img-opacity-name;
-        animation-name: $desktop-img-opacity-name;
-        -webkit-animation-duration: $desktop-img-opacity-duration;
-        -moz-animation-duration: $desktop-img-opacity-duration;
-        -o-animation-duration: $desktop-img-opacity-duration;
-        -ms-animation-duration: $desktop-img-opacity-duration;
-        animation-duration: $desktop-img-opacity-duration;
-        -webkit-animation-fill-mode: $animation-fill-mode;
-        -moz-animation-fill-mode: $animation-fill-mode;
-        -o-animation-fill-mode: $animation-fill-mode;
-        -ms-animation-fill-mode: $animation-fill-mode;
-        animation-fill-mode: $animation-fill-mode;
-    }
-
-    @mixin desktop-logo-animation-opacity {
-        @-webkit-keyframes #{$desktop-img-opacity-name} {
-            0%{opacity: $desktop-img-start-opacity;}
-            100%{opacity: $desktop-img-end-opacity;}
-        }
-        @-moz-keyframes #{$desktop-img-opacity-name} {
-            0%{opacity: $desktop-img-start-opacity;}
-            100%{opacity: $desktop-img-end-opacity;}
-        }
-        @-o-keyframes #{$desktop-img-opacity-name} {
-            0%{opacity: $desktop-img-start-opacity;}
-            100%{opacity: $desktop-img-end-opacity;}
-        }
-        @-ms-keyframes #{$desktop-img-opacity-name} {
-            0%{opacity: $desktop-img-start-opacity;}
-            100%{opacity: $desktop-img-end-opacity;}
-        }
-        @keyframes #{$desktop-img-opacity-name} {
-            0%{opacity: $desktop-img-start-opacity;}
-            100%{opacity: $desktop-img-end-opacity;}
-        }
-    }
 
     // Desktop mixins end
 
@@ -150,56 +58,17 @@
         font-family: $content-font;
     }
 
-    // Defines a specific section, in this case, the loading page.
+    // Defines a specific section, in this case, the home page.
 
-    #loading {
+    #home {
         @extend #section;
         background-color: $light-color;
         color: $dark-color;
         font-size: $content-font-size;
     }
 
-    .loading-statements {
-        color: $dark-color;
-        font-family: $content-font;
-        display: none;
-    }
-
-    .loading-statement-one, .loading-statement-two, .loading-statement-three {
-        @extend .loading-statements;
-        font-size: 14px;
-    }
-    .continue-button {
-        @extend .loading-statements;
-        background-color: $light-color;
-        font-size: 18px;
-        border: none;
-        margin-top: 2.5%;
-    }
-
-    .continue-button:hover {
-        background-color: $nav-color;
-        color: $light-color;
-    }
-
     // Mobile only
 
-    .mobile-logo-animation-moves {
-        @include mobile-logo-animation-moves;
-    }
-
-    .mobile-logo-animation {
-        @include mobile-logo-animation-properties;
-    }
-
     // Desktop only
-
-    .desktop-logo-animation-opacity {
-        @include desktop-logo-animation-opacity;
-    }
-
-    .desktop-logo-animation {
-        @include desktop-logo-animation-properties;
-    }
 
 // #####  IDS AND CLASSES END #####

@@ -3,115 +3,13 @@
   margin: 0;
   padding: 0; }
 
-#section, #loading {
+#section, #home {
   height: auto;
   font-family: "Questrial", sans-serif; }
 
-#loading {
+#home {
   background-color: #eaeaea;
   color: #231f20;
   font-size: 12px; }
-
-.loading-statements, .loading-statement-one, .loading-statement-two, .loading-statement-three, .continue-button {
-  color: #231f20;
-  font-family: "Questrial", sans-serif;
-  display: none; }
-
-.loading-statement-one, .loading-statement-two, .loading-statement-three {
-  font-size: 14px; }
-
-.continue-button {
-  background-color: #eaeaea;
-  font-size: 18px;
-  border: none;
-  margin-top: 2.5%; }
-
-.continue-button:hover {
-  background-color: #92ba8f;
-  color: #eaeaea; }
-
-@-webkit-keyframes mobile-logo-animation {
-  0% {
-    margin-top: -100%; }
-  100% {
-    margin-top: 25%; } }
-@-moz-keyframes mobile-logo-animation {
-  0% {
-    margin-top: -100%; }
-  100% {
-    margin-top: 25%; } }
-@-o-keyframes mobile-logo-animation {
-  0% {
-    margin-top: -100%; }
-  100% {
-    margin-top: 25%; } }
-@-ms-keyframes mobile-logo-animation {
-  0% {
-    margin-top: -100%; }
-  100% {
-    margin-top: 25%; } }
-@keyframes mobile-logo-animation {
-  0% {
-    margin-top: -100%; }
-  100% {
-    margin-top: 25%; } }
-.mobile-logo-animation {
-  -webkit-animation-name: mobile-logo-animation;
-  -moz-animation-name: mobile-logo-animation;
-  -o-animation-name: mobile-logo-animation;
-  -ms-animation-name: mobile-logo-animation;
-  animation-name: mobile-logo-animation;
-  -webkit-animation-duration: 1500ms;
-  -moz-animation-duration: 1500ms;
-  -o-animation-duration: 1500ms;
-  -ms-animation-duration: 1500ms;
-  animation-duration: 1500ms;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
-  -ms-animation-fill-mode: forwards;
-  animation-fill-mode: forwards; }
-
-@-webkit-keyframes desktop-logo-animation {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-moz-keyframes desktop-logo-animation {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-o-keyframes desktop-logo-animation {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-ms-keyframes desktop-logo-animation {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@keyframes desktop-logo-animation {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-.desktop-logo-animation {
-  -webkit-animation-name: desktop-logo-animation;
-  -moz-animation-name: desktop-logo-animation;
-  -o-animation-name: desktop-logo-animation;
-  -ms-animation-name: desktop-logo-animation;
-  animation-name: desktop-logo-animation;
-  -webkit-animation-duration: 1500ms;
-  -moz-animation-duration: 1500ms;
-  -o-animation-duration: 1500ms;
-  -ms-animation-duration: 1500ms;
-  animation-duration: 1500ms;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
-  -ms-animation-fill-mode: forwards;
-  animation-fill-mode: forwards; }
 
 /*# sourceMappingURL=style.css.map */
