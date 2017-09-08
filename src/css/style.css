@@ -74,29 +74,29 @@
 
 @-webkit-keyframes desktop-logo-animation {
   0% {
-    margin-left: 0; }
+    opacity: 0; }
   100% {
-    margin-left: 1; } }
+    opacity: 1; } }
 @-moz-keyframes desktop-logo-animation {
   0% {
-    margin-left: 0; }
+    opacity: 0; }
   100% {
-    margin-left: 1; } }
+    opacity: 1; } }
 @-o-keyframes desktop-logo-animation {
   0% {
-    margin-left: 0; }
+    opacity: 0; }
   100% {
-    margin-left: 1; } }
+    opacity: 1; } }
 @-ms-keyframes desktop-logo-animation {
   0% {
-    margin-left: 0; }
+    opacity: 0; }
   100% {
-    margin-left: 1; } }
+    opacity: 1; } }
 @keyframes desktop-logo-animation {
   0% {
-    margin-left: 0; }
+    opacity: 0; }
   100% {
-    margin-left: 1; } }
+    opacity: 1; } }
 .desktop-logo-animation {
   -webkit-animation-name: desktop-logo-animation;
   -moz-animation-name: desktop-logo-animation;

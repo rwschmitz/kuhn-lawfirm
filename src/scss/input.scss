@@ -106,26 +106,26 @@
         animation-fill-mode: $animation-fill-mode;
     }
 
-    @mixin desktop-logo-animation-moves {
+    @mixin desktop-logo-animation-opacity {
         @-webkit-keyframes #{$desktop-img-opacity-name} {
-            0%{margin-left: $desktop-img-start-opacity;}
-            100%{margin-left: $desktop-img-end-opacity;}
+            0%{opacity: $desktop-img-start-opacity;}
+            100%{opacity: $desktop-img-end-opacity;}
         }
         @-moz-keyframes #{$desktop-img-opacity-name} {
-            0%{margin-left: $desktop-img-start-opacity;}
-            100%{margin-left: $desktop-img-end-opacity;}
+            0%{opacity: $desktop-img-start-opacity;}
+            100%{opacity: $desktop-img-end-opacity;}
         }
         @-o-keyframes #{$desktop-img-opacity-name} {
-            0%{margin-left: $desktop-img-start-opacity;}
-            100%{margin-left: $desktop-img-end-opacity;}
+            0%{opacity: $desktop-img-start-opacity;}
+            100%{opacity: $desktop-img-end-opacity;}
         }
         @-ms-keyframes #{$desktop-img-opacity-name} {
-            0%{margin-left: $desktop-img-start-opacity;}
-            100%{margin-left: $desktop-img-end-opacity;}
+            0%{opacity: $desktop-img-start-opacity;}
+            100%{opacity: $desktop-img-end-opacity;}
         }
         @keyframes #{$desktop-img-opacity-name} {
-            0%{margin-left: $desktop-img-start-opacity;}
-            100%{margin-left: $desktop-img-end-opacity;}
+            0%{opacity: $desktop-img-start-opacity;}
+            100%{opacity: $desktop-img-end-opacity;}
         }
     }
 
@@ -194,8 +194,8 @@
 
     // Desktop only
 
-    .desktop-logo-animation-moves {
-        @include desktop-logo-animation-moves;
+    .desktop-logo-animation-opacity {
+        @include desktop-logo-animation-opacity;
     }
 
     .desktop-logo-animation {
