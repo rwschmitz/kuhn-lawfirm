@@ -14,8 +14,9 @@
     $light-color: #eaeaea;
     $nav-color: #92ba8f;
 
-    $dark-background-image: rgba(35, 31, 32, 0.8) url("src/imgs/pattern.jpg");
-    $light-background-image:rgba(234, 234, 234, 0.8) url("src/imgs/pattern.jpg");
+    $background-img: url("../imgs/pattern.jpg");
+    $dark-img-overlay: rgba(35, 31, 32, 0.8);
+    $light-img-overlay:rgba(234, 234, 234, 0.8);
 
     $animation-fill-mode: forwards;
 
@@ -49,7 +50,7 @@
     // Sitewide
 
     .html, body {
-        background-color: $light-color;
+        background-color: $dark-color;
         margin: 0;
         padding: 0;
     }
@@ -65,7 +66,8 @@
 
     #home {
         @extend #section;
-        background: $light-background-image;
+        background-image: $background-image;
+        background-color: $light-img-overlay;
         color: $dark-color;
         font-size: $content-font-size;
     }
