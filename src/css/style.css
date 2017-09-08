@@ -74,40 +74,40 @@
 
 @-webkit-keyframes desktop-logo-animation {
   0% {
-    margin-left: -100%; }
+    margin-left: 0; }
   100% {
-    margin-left: 40%; } }
+    margin-left: 1; } }
 @-moz-keyframes desktop-logo-animation {
   0% {
-    margin-left: -100%; }
+    margin-left: 0; }
   100% {
-    margin-left: 40%; } }
+    margin-left: 1; } }
 @-o-keyframes desktop-logo-animation {
   0% {
-    margin-left: -100%; }
+    margin-left: 0; }
   100% {
-    margin-left: 40%; } }
+    margin-left: 1; } }
 @-ms-keyframes desktop-logo-animation {
   0% {
-    margin-left: -100%; }
+    margin-left: 0; }
   100% {
-    margin-left: 40%; } }
+    margin-left: 1; } }
 @keyframes desktop-logo-animation {
   0% {
-    margin-left: -100%; }
+    margin-left: 0; }
   100% {
-    margin-left: 40%; } }
+    margin-left: 1; } }
 .desktop-logo-animation {
   -webkit-animation-name: desktop-logo-animation;
   -moz-animation-name: desktop-logo-animation;
   -o-animation-name: desktop-logo-animation;
   -ms-animation-name: desktop-logo-animation;
   animation-name: desktop-logo-animation;
-  -webkit-animation-duration: 2000ms;
-  -moz-animation-duration: 2000ms;
-  -o-animation-duration: 2000ms;
-  -ms-animation-duration: 2000ms;
-  animation-duration: 2000ms;
+  -webkit-animation-duration: 1000ms;
+  -moz-animation-duration: 1000ms;
+  -o-animation-duration: 1000ms;
+  -ms-animation-duration: 1000ms;
+  animation-duration: 1000ms;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   -o-animation-fill-mode: forwards;

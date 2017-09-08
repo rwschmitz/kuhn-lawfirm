@@ -1,15 +1,15 @@
 $(function() {
-    $(".loading-statement-one").delay(2500).fadeIn(500);
+    $(".loading-statement-one").delay(1500).fadeIn(500);
 });
 
 $(function() {
-    $(".loading-statement-two").delay(3000).fadeIn(500);
+    $(".loading-statement-two").delay(1500).fadeIn(500);
 });
 
 $(function() {
-    $(".loading-statement-three").delay(3500).fadeIn(500);
+    $(".loading-statement-three").delay(1500).fadeIn(500);
 });
 
 $(function() {
-    $(".continue-button").delay(4500).fadeIn(1750);
+    $(".continue-button").delay(2500).fadeIn(1750);
 });

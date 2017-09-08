@@ -29,10 +29,10 @@
 
     // Desktop variables start
 
-    $desktop-left-to-right-img-move-name: desktop-logo-animation;
-    $desktop-left-to-right-img-move-start-pos: -100%;
-    $desktop-left-to-right-img-move-end-pos: 40%;
-    $desktop-left-to-right-img-move-duration: 2000ms;
+    $desktop-img-opacity-name: desktop-logo-animation;
+    $desktop-img-start-opacity: 0;
+    $desktop-img-end-opacity: 1;
+    $desktop-img-opacity-duration: 1000ms;
 
     // Desktop variables end
 
@@ -89,16 +89,16 @@
     // Desktop mixins start
 
     @mixin desktop-logo-animation-properties {
-        -webkit-animation-name: $desktop-left-to-right-img-move-name;
-        -moz-animation-name: $desktop-left-to-right-img-move-name;
-        -o-animation-name: $desktop-left-to-right-img-move-name;
-        -ms-animation-name: $desktop-left-to-right-img-move-name;
-        animation-name: $desktop-left-to-right-img-move-name;
-        -webkit-animation-duration: $desktop-left-to-right-img-move-duration;
-        -moz-animation-duration: $desktop-left-to-right-img-move-duration;
-        -o-animation-duration: $desktop-left-to-right-img-move-duration;
-        -ms-animation-duration: $desktop-left-to-right-img-move-duration;
-        animation-duration: $desktop-left-to-right-img-move-duration;
+        -webkit-animation-name: $desktop-img-opacity-name;
+        -moz-animation-name: $desktop-img-opacity-name;
+        -o-animation-name: $desktop-img-opacity-name;
+        -ms-animation-name: $desktop-img-opacity-name;
+        animation-name: $desktop-img-opacity-name;
+        -webkit-animation-duration: $desktop-img-opacity-duration;
+        -moz-animation-duration: $desktop-img-opacity-duration;
+        -o-animation-duration: $desktop-img-opacity-duration;
+        -ms-animation-duration: $desktop-img-opacity-duration;
+        animation-duration: $desktop-img-opacity-duration;
         -webkit-animation-fill-mode: $animation-fill-mode;
         -moz-animation-fill-mode: $animation-fill-mode;
         -o-animation-fill-mode: $animation-fill-mode;
@@ -107,25 +107,25 @@
     }
 
     @mixin desktop-logo-animation-moves {
-        @-webkit-keyframes #{$desktop-left-to-right-img-move-name} {
-            0%{margin-left: $desktop-left-to-right-img-move-start-pos;}
-            100%{margin-left: $desktop-left-to-right-img-move-end-pos;}
+        @-webkit-keyframes #{$desktop-img-opacity-name} {
+            0%{margin-left: $desktop-img-start-opacity;}
+            100%{margin-left: $desktop-img-end-opacity;}
         }
-        @-moz-keyframes #{$desktop-left-to-right-img-move-name} {
-            0%{margin-left: $desktop-left-to-right-img-move-start-pos;}
-            100%{margin-left: $desktop-left-to-right-img-move-end-pos;}
+        @-moz-keyframes #{$desktop-img-opacity-name} {
+            0%{margin-left: $desktop-img-start-opacity;}
+            100%{margin-left: $desktop-img-end-opacity;}
         }
-        @-o-keyframes #{$desktop-left-to-right-img-move-name} {
-            0%{margin-left: $desktop-left-to-right-img-move-start-pos;}
-            100%{margin-left: $desktop-left-to-right-img-move-end-pos;}
+        @-o-keyframes #{$desktop-img-opacity-name} {
+            0%{margin-left: $desktop-img-start-opacity;}
+            100%{margin-left: $desktop-img-end-opacity;}
         }
-        @-ms-keyframes #{$desktop-left-to-right-img-move-name} {
-            0%{margin-left: $desktop-left-to-right-img-move-start-pos;}
-            100%{margin-left: $desktop-left-to-right-img-move-end-pos;}
+        @-ms-keyframes #{$desktop-img-opacity-name} {
+            0%{margin-left: $desktop-img-start-opacity;}
+            100%{margin-left: $desktop-img-end-opacity;}
         }
-        @keyframes #{$desktop-left-to-right-img-move-name} {
-            0%{margin-left: $desktop-left-to-right-img-move-start-pos;}
-            100%{margin-left: $desktop-left-to-right-img-move-end-pos;}
+        @keyframes #{$desktop-img-opacity-name} {
+            0%{margin-left: $desktop-img-start-opacity;}
+            100%{margin-left: $desktop-img-end-opacity;}
         }
     }
 
