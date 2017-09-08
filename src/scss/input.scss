@@ -15,8 +15,8 @@
     $nav-color: #92ba8f;
 
     $background-img: url("../imgs/pattern.jpg");
-    $dark-img-overlay: rgba(35, 31, 32, 0.8);
-    $light-img-overlay:rgba(234, 234, 234, 0.8);
+    $dark-img-overlay: linear-gradient(rgba(35, 31, 32, 0.8), rgba(35, 31, 32, 0.8));
+    $light-img-overlay:linear-gradient(rgba(234, 234, 234, 0.8), rgba(234, 234, 234, 0.8));
 
     $animation-fill-mode: forwards;
 
@@ -55,19 +55,29 @@
         padding: 0;
     }
 
+    .light-overlay {
+        background-color: $light-img-overlay;
+    }
+
+    .dark-overlay {
+        background-color: $dark-img-overlay;
+    }
+
     // Defines each section.
 
     #section {
         height: auto;
         font-family: $content-font;
+        background-image: $background-img;
+        background-repeat: repeat;
+        z-index: 1;
     }
 
     // Defines a specific section, in this case, the home page.
 
     #home {
         @extend #section;
-        background-image: $background-img;
-        background-color: $light-img-overlay;
+        @extend .light-overlay;
         color: $dark-color;
         font-size: $content-font-size;
     }

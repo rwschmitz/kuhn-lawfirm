@@ -3,13 +3,20 @@
   margin: 0;
   padding: 0; }
 
+.light-overlay, #home {
+  background-color: linear-gradient(rgba(234, 234, 234, 0.8), rgba(234, 234, 234, 0.8)); }
+
+.dark-overlay {
+  background-color: linear-gradient(rgba(35, 31, 32, 0.8), rgba(35, 31, 32, 0.8)); }
+
 #section, #home {
   height: auto;
-  font-family: "Questrial", sans-serif; }
+  font-family: "Questrial", sans-serif;
+  background-image: url("../imgs/pattern.jpg");
+  background-repeat: repeat;
+  z-index: 1; }
 
 #home {
-  background-image: url("../imgs/pattern.jpg");
-  background-color: rgba(234, 234, 234, 0.8);
   color: #231f20;
   font-size: 12px; }
 
