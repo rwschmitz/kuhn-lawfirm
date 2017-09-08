@@ -61,11 +61,11 @@
   -o-animation-name: mobile-logo-animation;
   -ms-animation-name: mobile-logo-animation;
   animation-name: mobile-logo-animation;
-  -webkit-animation-duration: 2000ms;
-  -moz-animation-duration: 2000ms;
-  -o-animation-duration: 2000ms;
-  -ms-animation-duration: 2000ms;
-  animation-duration: 2000ms;
+  -webkit-animation-duration: 1500ms;
+  -moz-animation-duration: 1500ms;
+  -o-animation-duration: 1500ms;
+  -ms-animation-duration: 1500ms;
+  animation-duration: 1500ms;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   -o-animation-fill-mode: forwards;
