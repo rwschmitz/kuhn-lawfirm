@@ -10,9 +10,6 @@
   background-image: url("../imgs/pattern.jpg");
   background-repeat: repeat-y; }
 
-.section-overlay {
-  z-index: 1; }
-
 #home {
   color: #231f20;
   background-color: rgba(234, 234, 234, 0.8);
