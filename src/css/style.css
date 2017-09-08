@@ -7,7 +7,7 @@
   height: auto;
   font-family: "Questrial", sans-serif;
   background-image: url("../imgs/pattern.jpg");
-  background-repeat: repeat;
+  background-repeat: repeat-y;
   z-index: 1; }
 
 #home {
