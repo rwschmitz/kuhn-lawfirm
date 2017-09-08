@@ -66,7 +66,7 @@
 
     #home {
         @extend #section;
-        background-image: $background-image;
+        background-image: $background-img;
         background-color: $light-img-overlay;
         color: $dark-color;
         font-size: $content-font-size;
