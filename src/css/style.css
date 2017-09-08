@@ -8,7 +8,7 @@
   font-family: "Questrial", sans-serif; }
 
 #home {
-  background-color: #eaeaea;
+  background: rgba(234, 234, 234, 0.8) url("src/imgs/pattern.jpg");
   color: #231f20;
   font-size: 12px; }
 
