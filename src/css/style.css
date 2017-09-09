@@ -6,13 +6,10 @@
 #section, #home {
   height: auto;
   font-family: "Questrial", sans-serif;
-  font-size: 12px;
-  background-image: url("../imgs/pattern.jpg");
-  background-repeat: repeat-y; }
+  font-size: 12px; }
 
 #home {
   color: #231f20;
-  background-color: rgba(234, 234, 234, 0.8);
   z-index: 2; }
 
 /*# sourceMappingURL=style.css.map */

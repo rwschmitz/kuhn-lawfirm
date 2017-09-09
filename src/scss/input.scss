@@ -14,10 +14,6 @@
     $light-color: #eaeaea;
     $nav-color: #92ba8f;
 
-    $background-img: url("../imgs/pattern.jpg");
-    $dark-img-overlay: rgba(35, 31, 32, 0.8);
-    $light-img-overlay: rgba(234, 234, 234, 0.8);
-
     $animation-fill-mode: forwards;
 
     // Site wide variables end
@@ -61,8 +57,6 @@
         height: auto;
         font-family: $content-font;
         font-size: $content-font-size;
-        background-image: $background-img;
-        background-repeat: repeat-y;
     }
 
     // Defines a specific section, in this case, the home page.
@@ -70,7 +64,6 @@
     #home {
         @extend #section;
         color: $dark-color;
-        background-color: $light-img-overlay;
         z-index: 2;
     }
 
