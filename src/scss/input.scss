@@ -8,7 +8,7 @@
     $header-font-size: 18px;
 
     $content-font: 'Questrial', sans-serif;
-    $content-font-size: 12px;
+    $content-font-size: 16px;
 
     $dark-color: #231f20;
     $light-color: #eaeaea;
@@ -59,12 +59,6 @@
         height: auto;
         font-family: $content-font;
         font-size: $content-font-size;
-    }
-
-    // Defines a specific section, in this case, the home page.
-
-    .home {
-        @extend .section;
         color: $dark-color;
     }
 

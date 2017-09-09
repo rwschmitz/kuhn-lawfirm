@@ -5,12 +5,10 @@
   margin: 0;
   padding: 0; }
 
-.section, .home {
+.section {
   height: auto;
   font-family: "Questrial", sans-serif;
-  font-size: 12px; }
-
-.home {
+  font-size: 16px;
   color: #231f20; }
 
 /*# sourceMappingURL=style.css.map */
