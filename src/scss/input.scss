@@ -46,7 +46,7 @@
     // Sitewide
 
     .html, body {
-        background-color: linear-gradient(135deg, $bright-color, $light-color);
+        background: linear-gradient(135deg, $bright-color, $light-color);
         margin: 0;
         padding: 0;
     }

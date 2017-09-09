@@ -1,5 +1,5 @@
 .html, body {
-  background-color: linear-gradient(135deg, #92ba8f, #eaeaea);
+  background: linear-gradient(135deg, #92ba8f, #eaeaea);
   margin: 0;
   padding: 0; }
 
