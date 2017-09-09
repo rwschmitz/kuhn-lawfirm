@@ -62,7 +62,7 @@
     // Defines a specific section, in this case, the home page.
 
     .home {
-        @extend #section;
+        @extend .section;
         color: $dark-color;
     }
 
