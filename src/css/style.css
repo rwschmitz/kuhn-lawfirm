@@ -1,5 +1,7 @@
 .html, body {
   background: linear-gradient(135deg, #92ba8f, #eaeaea);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0;
   padding: 0; }
 
