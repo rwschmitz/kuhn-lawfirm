@@ -12,7 +12,7 @@
 
     $dark-color: #231f20;
     $light-color: #eaeaea;
-    $nav-color: #92ba8f;
+    $bright-color: #92ba8f;
 
     $animation-fill-mode: forwards;
 
@@ -46,14 +46,14 @@
     // Sitewide
 
     .html, body {
-        background-color: $dark-color;
+        background-color: linear-gradient(135deg, $bright-color, $light-color);
         margin: 0;
         padding: 0;
     }
 
     // Defines each section.
 
-    #section {
+    .section {
         height: auto;
         font-family: $content-font;
         font-size: $content-font-size;
@@ -61,10 +61,9 @@
 
     // Defines a specific section, in this case, the home page.
 
-    #home {
+    .home {
         @extend #section;
         color: $dark-color;
-        z-index: 2;
     }
 
     // Mobile only
