@@ -67,10 +67,12 @@
 
     .nav-styling {
         background-color: $dark-color;
-        color: $light-color;
-        text-decoration: none;
         font-family: $nav-font;
         font-size: $nav-font-size;
+    }
+
+    .nav-styling a {
+        color: $light-color;
     }
 
     // Mobile only

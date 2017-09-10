@@ -13,9 +13,10 @@
 
 .nav-styling {
   background-color: #231f20;
-  color: #eaeaea;
-  text-decoration: none;
   font-family: "Questrial", sans-serif;
   font-size: 14px; }
+
+.nav-styling a {
+  color: #eaeaea; }
 
 /*# sourceMappingURL=style.css.map */
