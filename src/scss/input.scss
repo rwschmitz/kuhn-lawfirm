@@ -11,11 +11,12 @@
     $content-font-size: 16px;
 
     $nav-font: 'Questrial', sans-serif;;
-    $nav-font-size: 14px;
+    $nav-font-size: 12px;
 
     $dark-color: #231f20;
     $light-color: #eaeaea;
     $bright-color: #92ba8f;
+    $nav-color: rgba(35, 31, 32, 0.5);
 
     $animation-fill-mode: forwards;
 
@@ -66,7 +67,7 @@
     }
 
     .nav-styling {
-        background-color: $dark-color;
+        background-color: $nav-color;
         font-family: $nav-font;
         font-size: $nav-font-size;
     }
