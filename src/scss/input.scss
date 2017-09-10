@@ -16,7 +16,6 @@
     $dark-color: #231f20;
     $light-color: #eaeaea;
     $bright-color: #92ba8f;
-    $nav-color: rgba(35, 31, 32, 0.5);
 
     $animation-fill-mode: forwards;
 
@@ -67,7 +66,7 @@
     }
 
     .nav-styling {
-        background-color: $nav-color;
+        background-color: $dark-color;
         font-family: $nav-font;
         font-size: $nav-font-size;
     }
