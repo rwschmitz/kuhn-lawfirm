@@ -10,6 +10,9 @@
     $content-font: 'Questrial', sans-serif;
     $content-font-size: 16px;
 
+    $nav-font: 'Questrial', sans-serif;;
+    $nav-font-size: 14px;
+
     $dark-color: #231f20;
     $light-color: #eaeaea;
     $bright-color: #92ba8f;
@@ -60,6 +63,14 @@
         font-family: $content-font;
         font-size: $content-font-size;
         color: $dark-color;
+    }
+
+    .nav-styling {
+        background-color: $dark-color;
+        color: $light-color;
+        text-decoration: none;
+        font-family: $nav-font;
+        font-size: $nav-font-size;
     }
 
     // Mobile only
