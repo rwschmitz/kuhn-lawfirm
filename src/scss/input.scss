@@ -28,6 +28,9 @@
 
     // Desktop variables start
 
+    $link-hover-transition-duration: 150ms;
+    $link-hover-timing-function: ease-in-out;
+
     // Desktop variables end
 
 
@@ -91,20 +94,21 @@
 
     .content a {
         color: $link-color;
+        text-decoration: none;
     }
 
     .content a:hover {
         color: #eaeaea;
-        -webkit-transition-duration: 250ms;
-        -moz-transition-duration: 250ms;
-        -ms-transition-duration: 250ms;
-        -o-transition-duration: 250ms;
-        transition-duration: 250ms;
-        -webkit-transition-timing-function: ease-in-out;
-        -moz-transition-timing-function: ease-in-out;
-        -ms-transition-timing-function: ease-in-out;
-        -o-transition-timing-function: ease-in-out;
-        transition-timing-function: ease-in-out;
+        -webkit-transition-duration: $link-hover-transition-duration;
+        -moz-transition-duration: $link-hover-transition-duration;
+        -ms-transition-duration: $link-hover-transition-duration;
+        -o-transition-duration: $link-hover-transition-duration;
+        transition-duration: $link-hover-transition-duration;
+        -webkit-transition-timing-function: $link-hover-timing-function;
+        -moz-transition-timing-function: $link-hover-timing-function;
+        -ms-transition-timing-function: $link-hover-timing-function;
+        -o-transition-timing-function: $link-hover-timing-function;
+        transition-timing-function: $link-hover-timing-function;
     }
 
     // Bootstrap modifications

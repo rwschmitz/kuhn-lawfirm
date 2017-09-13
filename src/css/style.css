@@ -27,15 +27,16 @@
   color: #eaeaea; }
 
 .content a {
-  color: #e42f0c; }
+  color: #e42f0c;
+  text-decoration: none; }
 
 .content a:hover {
   color: #eaeaea;
-  -webkit-transition-duration: 250ms;
-  -moz-transition-duration: 250ms;
-  -ms-transition-duration: 250ms;
-  -o-transition-duration: 250ms;
-  transition-duration: 250ms;
+  -webkit-transition-duration: 150ms;
+  -moz-transition-duration: 150ms;
+  -ms-transition-duration: 150ms;
+  -o-transition-duration: 150ms;
+  transition-duration: 150ms;
   -webkit-transition-timing-function: ease-in-out;
   -moz-transition-timing-function: ease-in-out;
   -ms-transition-timing-function: ease-in-out;
