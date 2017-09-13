@@ -24,6 +24,9 @@
 
     // Mobile variables start
 
+    $accordian-font: 'Questrial', sans-serif;
+    $according-font-size:  14px;
+
     // Mobile variables end
 
     // Desktop variables start
@@ -135,6 +138,12 @@
     .btn-outline-success {
         color: $bright-color;
         border-color: $bright-color;
+    }
+
+    .card-header {
+        padding: 0.5rem;
+        font-family: $accordian-font;
+        font-size: $according-font-size;
     }
 
 // #####  IDS AND CLASSES END #####

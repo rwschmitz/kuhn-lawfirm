@@ -62,4 +62,9 @@
   color: #92ba8f;
   border-color: #92ba8f; }
 
+.card-header {
+  padding: 0.5rem;
+  font-family: "Questrial", sans-serif;
+  font-size: 14px; }
+
 /*# sourceMappingURL=style.css.map */
