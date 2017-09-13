@@ -23,4 +23,16 @@
   color: #eaeaea;
   height: 1.0em; }
 
+.form-control {
+  font-size: 0.6rem;
+  width: 70%; }
+
+.btn {
+  padding: 0.3rem 0.75rem;
+  font-size: 0.75rem; }
+
+.btn-outline-success {
+  color: #92ba8f;
+  border-color: #92ba8f; }
+
 /*# sourceMappingURL=style.css.map */

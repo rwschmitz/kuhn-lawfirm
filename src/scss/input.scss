@@ -86,4 +86,19 @@
         height: 1.0em;
     }
 
+    .form-control {
+        font-size: 0.6rem;
+        width: 70%;
+    }
+
+    .btn {
+        padding: 0.3rem 0.75rem;
+        font-size: 0.75rem;
+    }
+
+    .btn-outline-success {
+        color: $bright-color;
+        border-color: $bright-color;
+    }
+
 // #####  IDS AND CLASSES END #####
