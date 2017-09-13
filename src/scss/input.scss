@@ -15,7 +15,7 @@
 
     $dark-color: #231f20;
     $light-color: #eaeaea;
-    $light-color-trans: rgba(234, 234, 234, 0.45);
+    $light-color-trans: rgba(234, 234, 234, 0.25);
     $bright-color: #92ba8f;
     $link-color:  #e42f0c;
 
@@ -121,7 +121,7 @@
 
     .pa-button {
         border: 1px solid $dark-color;
-        background-color: transparent;
+        background-color: $light-color-trans;
         cursor: pointer;
         padding: 10px;
     }
