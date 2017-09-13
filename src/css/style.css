@@ -70,7 +70,7 @@
 .pa-button-active {
   background-color: #eaeaea;
   color: #231f20;
-  border-radius: 10px; }
+  border-radius: 0px 5px 0px 5px; }
 
 .navbar-toggler-icon {
   color: #eaeaea;
