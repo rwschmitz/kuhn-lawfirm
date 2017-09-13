@@ -104,27 +104,22 @@
 
         <!-- Desktop only -->
         <div class="row">
-                <div class="col-4">
-                  <div class="list-group" id="list-tab" role="tablist">
-                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-
-                  </div>
-                </div>
-
-
-                <div class="col-8">
-                  <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list" aria-expanded="true">
-                        <p>blah blah</p>
-                    </div>
-                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list" aria-expanded="false">
-                        <p>blah blah</p>
-                    </div>
-                  </div>
-                </div>
-                
-              </div>
+            <!-- List group -->
+            <div class="list-group" id="myList" role="tablist">
+                <a class="list-group-item list-group-item-action active" data-toggle="list" href="#home" role="tab">Home</a>
+                <a class="list-group-item list-group-item-action" data-toggle="list" href="#profile" role="tab">Profile</a>
+                <a class="list-group-item list-group-item-action" data-toggle="list" href="#messages" role="tab">Messages</a>
+                <a class="list-group-item list-group-item-action" data-toggle="list" href="#settings" role="tab">Settings</a>
+            </div>
+            
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="home" role="tabpanel">...</div>
+                <div class="tab-pane" id="profile" role="tabpanel">...</div>
+                <div class="tab-pane" id="messages" role="tabpanel">...</div>
+                <div class="tab-pane" id="settings" role="tabpanel">...</div>
+            </div>
+        </div>
 
 
 
