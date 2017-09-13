@@ -70,6 +70,11 @@
         font-size: $header-font-size;
     }
 
+    .content {
+        font-family: $content-font;
+        font-size: $content-font-size;
+    }
+
     .nav-styling {
         background-color: $dark-color;
         font-family: $nav-font;
