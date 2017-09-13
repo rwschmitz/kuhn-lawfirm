@@ -142,6 +142,10 @@
         border-color: $bright-color;
     }
 
+    .table td {
+        border: none;
+    }
+
     .card-header {
         padding: 0.5rem;
         font-family: $accordian-font;
