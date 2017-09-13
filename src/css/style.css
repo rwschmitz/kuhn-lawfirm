@@ -47,10 +47,14 @@
   transition-timing-function: ease-in-out; }
 
 .pa-button {
-  border: 1px solid black;
+  border: 1px solid #231f20;
   background-color: transparent;
   cursor: pointer;
   padding: 10px; }
+
+.pa-button-active {
+  background-color: #eaeaea;
+  color: #231f20; }
 
 .navbar-toggler-icon {
   color: #eaeaea;

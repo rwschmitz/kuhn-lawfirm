@@ -120,10 +120,15 @@
     }
 
     .pa-button {
-        border: 1px solid black;
+        border: 1px solid $dark-color;
         background-color: transparent;
         cursor: pointer;
         padding: 10px;
+    }
+
+    .pa-button-active {
+        background-color: $light-color;
+        color: $dark-color;
     }
 
 
