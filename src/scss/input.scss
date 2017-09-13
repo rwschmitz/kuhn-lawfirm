@@ -16,6 +16,7 @@
     $dark-color: #231f20;
     $light-color: #eaeaea;
     $bright-color: #92ba8f;
+    $link-color:  #e42f0c;
 
     $animation-fill-mode: forwards;
 
@@ -81,7 +82,7 @@
     }
 
     .nav-styling a {
-        color: $light-color;
+        color: $link-color;
     }
 
     // Mobile only
