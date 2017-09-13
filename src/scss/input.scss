@@ -8,7 +8,7 @@
     $header-font-size: 18px;
 
     $content-font: 'Questrial', sans-serif;
-    $content-font-size: 16px;
+    $content-font-size: 12px;
 
     $nav-font: 'Questrial', sans-serif;;
     $nav-font-size: 12px;
@@ -63,6 +63,11 @@
         font-family: $content-font;
         font-size: $content-font-size;
         color: $dark-color;
+    }
+
+    .heading {
+        font-family: $header-font;
+        font-size: $header-font-size;
     }
 
     .nav-styling {
