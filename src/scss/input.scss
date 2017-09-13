@@ -35,9 +35,6 @@
     $link-hover-transition-duration: 150ms;
     $link-hover-timing-function: ease-in-out;
 
-    $table-header-border-radius: 30px 0px 30px 0px;
-    $table-cells-border-radius: 0px 30px 0px 30px;
-
     // Desktop variables end
 
 
@@ -122,17 +119,6 @@
         transition-timing-function: $link-hover-timing-function;
     }
 
-    .table-header-styling {
-        border-radius: $table-header-border-radius;
-        background-color: transparent;
-        border: none;
-    }
-
-    .table-cells-styling {
-        border-radius: $table-cells-border-radius;
-        background-color: $light-color-trans;
-        border: none;
-    }
 
     // Bootstrap modifications
 
