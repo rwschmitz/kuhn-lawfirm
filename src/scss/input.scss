@@ -140,13 +140,13 @@
 
     .pa-button:hover {
         background-color: $light-color;
-        border-radius: 10px;
+        border-radius: 0px 10px 0px 10px;
     }
 
     .pa-button-active {
         background-color: $light-color;
         color: $dark-color;
-        border-radius: 0px 5px 0px 5px;
+        border-radius: 0px 10px 0px 10px;
     }
 
 
