@@ -82,7 +82,7 @@
     }
 
     .nav-styling a {
-        color: $link-color;
+        color: $light-color;
     }
 
     // Mobile only
@@ -90,7 +90,7 @@
     // Desktop only
 
     .content a {
-        color: #eaeaea;
+        color: $link-color;
     }
 
     // Bootstrap modifications
