@@ -46,6 +46,11 @@
   -o-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out; }
 
+.pa-button {
+  border: 1px solid black;
+  background-color: transparent;
+  cursor: pointer; }
+
 .navbar-toggler-icon {
   color: #eaeaea;
   height: 1.0em; }
