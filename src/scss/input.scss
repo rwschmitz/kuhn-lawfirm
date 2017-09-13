@@ -15,6 +15,7 @@
 
     $dark-color: #231f20;
     $light-color: #eaeaea;
+    $light-color-trans: rgba(234, 234, 234, 0.45);
     $bright-color: #92ba8f;
     $link-color:  #e42f0c;
 
@@ -33,6 +34,9 @@
 
     $link-hover-transition-duration: 150ms;
     $link-hover-timing-function: ease-in-out;
+
+    $table-header-border-radius: 30px 0px 30px 0px;
+    $table-cells-border-radius: 0px 30px 0px 30px;
 
     // Desktop variables end
 
@@ -116,6 +120,16 @@
         -ms-transition-timing-function: $link-hover-timing-function;
         -o-transition-timing-function: $link-hover-timing-function;
         transition-timing-function: $link-hover-timing-function;
+    }
+
+    .table-header-styling {
+        border-radius: $table-header-border-radius;
+        background-color: transparent;
+    }
+
+    .table-cells-styling {
+        border-radius: $table-cells-border-radius;
+        background-color: $light-color-trans;
     }
 
     // Bootstrap modifications
