@@ -106,10 +106,6 @@
     .content a {
         color: $link-color;
         text-decoration: none;
-    }
-
-    .content a:hover {
-        color: $light-color;
         -webkit-transition-duration: $link-hover-transition-duration;
         -moz-transition-duration: $link-hover-transition-duration;
         -ms-transition-duration: $link-hover-transition-duration;
@@ -122,16 +118,16 @@
         transition-timing-function: $link-hover-timing-function;
     }
 
+    .content a:hover {
+        color: $light-color;
+    }
+
     .pa-button {
         border: 1px solid $dark-color;
         background-color: $light-color-trans;
         color: $dark-color;
         cursor: pointer;
         padding: 10px;
-    }
-
-    .pa-button:hover {
-        color: $light-color;
         -webkit-transition-duration: $pa-hover-transition-duration;
         -moz-transition-duration: $pa-hover-transition-duration;
         -ms-transition-duration: $pa-hover-transition-duration;
@@ -142,6 +138,10 @@
         -ms-transition-timing-function: $pa-hover-timing-function;
         -o-transition-timing-function: $pa-hover-timing-function;
         transition-timing-function: $pa-hover-timing-function;
+    }
+
+    .pa-button:hover {
+        background-color: $light-color;
     }
 
     .pa-button-active {
