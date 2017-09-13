@@ -60,19 +60,18 @@
 
     .section {
         height: auto;
-        font-family: $content-font;
-        font-size: $content-font-size;
-        color: $dark-color;
     }
 
     .heading {
         font-family: $header-font;
         font-size: $header-font-size;
+        color: $dark-color;
     }
 
     .content {
         font-family: $content-font;
         font-size: $content-font-size;
+        color: $dark-color;
     }
 
     .nav-styling {
