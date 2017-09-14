@@ -49,6 +49,7 @@
 .pa-button {
   border: 1px solid #231f20;
   background-color: rgba(234, 234, 234, 0.25);
+  color: #231f20;
   cursor: pointer;
   padding: 10px;
   -webkit-transition-duration: 250ms;
@@ -69,7 +70,8 @@
 .pa-button-active {
   background-color: #eaeaea;
   color: #231f20;
-  border-radius: 0px 10px 0px 10px; }
+  border-radius: 0px 10px 0px 10px;
+  display: block; }
 
 .sub-prac-info {
   background-color: #eaeaea;
@@ -77,7 +79,7 @@
   border: 1px solid #231f20; }
 
 .pa-1, .pa-2, .pa-3, .pa-4, .pa-5, .pa-6, .pa-7, .pa-8, .pa-9, .pa-10, .pa-11, .pa-12, .pa-13, .pa-14, .pa-15, .pa-16, .pa-17, .pa-18 {
-  color: #231f20; }
+  display: none; }
 
 .navbar-toggler-icon {
   color: #eaeaea;
