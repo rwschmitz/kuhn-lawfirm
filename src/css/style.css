@@ -72,6 +72,12 @@
   color: #231f20;
   border-radius: 0px 10px 0px 10px; }
 
+.sub-prac-info {
+  background-color: #eaeaea;
+  color: #231f20;
+  border: 1px solid #231f20;
+  border-radius: 10px 0px 10px 0px; }
+
 .navbar-toggler-icon {
   color: #eaeaea;
   height: 1.0em; }
