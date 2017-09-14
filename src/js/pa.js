@@ -1,10 +1,8 @@
 $(function() {
-    for (var i = 1; i < 19; i++) {
-       $(".pa-" + i).click(function() {
-          $(".pa-" + i).addClass('pa-button-active');
-       });
-    }
-    for (var j = 2; j < 19; j++) {
-       $(".pa-" + j).removeClass('pa-button-active');
-    }
- });
+    $(".pa-1").click(function() {
+        $(".pa-1").addClass('pa-button-active');
+        for (var j=2; j<17; j++) {
+            $(".pa-" + j ).removeClass('pa-button-active');
+        }
+    });
+});
