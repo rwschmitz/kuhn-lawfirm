@@ -198,19 +198,8 @@ $(function() {
     });
 });
 
-$(function() {
-    switch(si) {
-        case si === 1:
-            $(".pa-9").hide();
-            break;
-
-        case si === 2:
-            $(".subprac-info").text("test2");
-            break;
-
-        case si === 3:
-            $(".subprac-info").text("test2");
-            break;
-
+$(function () {
+    if(si===1) {
+        $(".pa-9").hide();
     }
 });
