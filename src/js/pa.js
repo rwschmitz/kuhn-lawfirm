@@ -3,7 +3,7 @@ $(function() {
        $(".pa-" + j).click(function() {
           $(".pa-" + j).addClass('pa-button-active');
           for (var i = 1; i < 19; i++) {
-             if (i === 1) {
+             if (i === j) {
                 continue;
              }
              $(".pa-" + i).removeClass('pa-button-active');
