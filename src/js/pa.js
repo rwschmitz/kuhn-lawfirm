@@ -201,17 +201,17 @@ $(function() {
 $(function() {
     switch(si) {
         case 1:
-            si = 1;
+            si === 1;
             $(".pa-9").hide();
             break;
 
         case 2:
-            si = 2;
+            si === 2;
             $(".subprac-info").text("test2");
             break;
 
             case 3:
-            si = 3;
+            si === 3;
             $(".subprac-info").text("test2");
             break;
 
