@@ -123,7 +123,6 @@
     .pa-button {
         border: 1px solid $dark-color;
         background-color: $light-color-trans;
-        color: $dark-color;
         cursor: pointer;
         padding: 10px;
         -webkit-transition-duration: $pa-hover-transition-duration;
@@ -155,11 +154,15 @@
         border: 1px solid $dark-color;
     }
 
+    .pa-1, .pa-2, .pa-3, .pa-4, .pa-5, .pa-6, .pa-7, .pa-8, .pa-9, .pa-10, .pa-11, .pa-12, .pa-13, .pa-14, .pa-15, .pa-16, .pa-17, .pa-18 {
+        color: $dark-color;
+    }
+
 
     // Bootstrap modifications
 
     .navbar-toggler-icon {
-        color: #eaeaea;
+        color: $light-color;
         height: 1.0em;
     }
 
