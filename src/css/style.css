@@ -67,6 +67,9 @@
   background-color: #eaeaea;
   border-radius: 0px 10px 0px 10px; }
 
+.pa-button:focus {
+  outline: 0; }
+
 .pa-button-active {
   background-color: #eaeaea;
   color: #231f20;
