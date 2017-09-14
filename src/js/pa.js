@@ -1,6 +1,9 @@
+var si;
+
 $(function() {
     $(".pa-1").click(function() {
         $(".pa-1").addClass('pa-button-active');
+        si = 1;
         for (var i=1; i<19; i++) {
             if (i === 1) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -11,6 +14,7 @@ $(function() {
 $(function() {
     $(".pa-2").click(function() {
         $(".pa-2").addClass('pa-button-active');
+        si = 2;
         for (var i=1; i<19; i++) {
             if (i === 2) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -21,6 +25,7 @@ $(function() {
 $(function() {
     $(".pa-3").click(function() {
         $(".pa-3").addClass('pa-button-active');
+        si = 3;
         for (var i=1; i<19; i++) {
             if (i === 3) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -31,6 +36,7 @@ $(function() {
 $(function() {
     $(".pa-4").click(function() {
         $(".pa-4").addClass('pa-button-active');
+        si = 4;
         for (var i=1; i<19; i++) {
             if (i === 4) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -41,6 +47,7 @@ $(function() {
 $(function() {
     $(".pa-5").click(function() {
         $(".pa-5").addClass('pa-button-active');
+        si = 5;
         for (var i=1; i<19; i++) {
             if (i === 5) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -51,6 +58,7 @@ $(function() {
 $(function() {
     $(".pa-6").click(function() {
         $(".pa-6").addClass('pa-button-active');
+        si = 6;
         for (var i=1; i<19; i++) {
             if (i === 6) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -61,6 +69,7 @@ $(function() {
 $(function() {
     $(".pa-7").click(function() {
         $(".pa-7").addClass('pa-button-active');
+        si = 7;
         for (var i=1; i<19; i++) {
             if (i === 7) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -71,6 +80,7 @@ $(function() {
 $(function() {
     $(".pa-8").click(function() {
         $(".pa-8").addClass('pa-button-active');
+        si = 8;
         for (var i=1; i<19; i++) {
             if (i === 8) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -81,6 +91,7 @@ $(function() {
 $(function() {
     $(".pa-9").click(function() {
         $(".pa-9").addClass('pa-button-active');
+        si = 9;
         for (var i=1; i<19; i++) {
             if (i === 9) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -91,6 +102,7 @@ $(function() {
 $(function() {
     $(".pa-10").click(function() {
         $(".pa-10").addClass('pa-button-active');
+        si = 10;
         for (var i=1; i<19; i++) {
             if (i === 10) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -101,6 +113,7 @@ $(function() {
 $(function() {
     $(".pa-11").click(function() {
         $(".pa-11").addClass('pa-button-active');
+        si = 11;
         for (var i=1; i<19; i++) {
             if (i === 11) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -111,6 +124,7 @@ $(function() {
 $(function() {
     $(".pa-12").click(function() {
         $(".pa-12").addClass('pa-button-active');
+        si = 12;
         for (var i=1; i<19; i++) {
             if (i === 12) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -121,6 +135,7 @@ $(function() {
 $(function() {
     $(".pa-13").click(function() {
         $(".pa-13").addClass('pa-button-active');
+        si = 13;
         for (var i=1; i<19; i++) {
             if (i === 13) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -131,6 +146,7 @@ $(function() {
 $(function() {
     $(".pa-14").click(function() {
         $(".pa-14").addClass('pa-button-active');
+        si = 14;
         for (var i=1; i<19; i++) {
             if (i === 14) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -141,6 +157,7 @@ $(function() {
 $(function() {
     $(".pa-15").click(function() {
         $(".pa-15").addClass('pa-button-active');
+        si = 15;
         for (var i=1; i<19; i++) {
             if (i === 15) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -151,6 +168,7 @@ $(function() {
 $(function() {
     $(".pa-16").click(function() {
         $(".pa-16").addClass('pa-button-active');
+        si = 16;
         for (var i=1; i<19; i++) {
             if (i === 16) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -161,6 +179,7 @@ $(function() {
 $(function() {
     $(".pa-17").click(function() {
         $(".pa-17").addClass('pa-button-active');
+        si = 17;
         for (var i=1; i<19; i++) {
             if (i === 17) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -171,6 +190,7 @@ $(function() {
 $(function() {
     $(".pa-18").click(function() {
         $(".pa-18").addClass('pa-button-active');
+        si = 18;
         for (var i=1; i<19; i++) {
             if (i === 18) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -178,3 +198,22 @@ $(function() {
     });
 });
 
+$(function() {
+    switch(si) {
+        case 1:
+            si = 1;
+            $(".subprac-info").text("test1");
+            break;
+
+        case 2:
+            si = 2;
+            $(".subprac-info").text("test2");
+            break;
+
+            case 2:
+            si = 2;
+            $(".subprac-info").text("test2");
+            break;
+
+    }
+});
