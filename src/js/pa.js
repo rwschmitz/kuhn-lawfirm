@@ -16,6 +16,7 @@ $(function() {
     $(".pa-2").click(function() {
         $(".pa-2").addClass('pa-button-active');
         si = 2;
+        console.log(si);
         for (var i=1; i<19; i++) {
             if (i === 2) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -27,6 +28,7 @@ $(function() {
     $(".pa-3").click(function() {
         $(".pa-3").addClass('pa-button-active');
         si = 3;
+        console.log(si);
         for (var i=1; i<19; i++) {
             if (i === 3) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
