@@ -4,7 +4,6 @@ $(function() {
     $(".pa-1").click(function() {
         $(".pa-1").addClass('pa-button-active');
         si = 1;
-        console.log(si);
         for (var i=1; i<19; i++) {
             if (i === 1) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -16,7 +15,6 @@ $(function() {
     $(".pa-2").click(function() {
         $(".pa-2").addClass('pa-button-active');
         si = 2;
-        console.log(si);
         for (var i=1; i<19; i++) {
             if (i === 2) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -28,7 +26,6 @@ $(function() {
     $(".pa-3").click(function() {
         $(".pa-3").addClass('pa-button-active');
         si = 3;
-        console.log(si);
         for (var i=1; i<19; i++) {
             if (i === 3) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
@@ -205,7 +202,7 @@ $(function() {
     switch(si) {
         case 1:
             si = 1;
-            $(".subprac-info").text("test1");
+            $(".pa-9").hide();
             break;
 
         case 2:
@@ -213,8 +210,8 @@ $(function() {
             $(".subprac-info").text("test2");
             break;
 
-            case 2:
-            si = 2;
+            case 3:
+            si = 3;
             $(".subprac-info").text("test2");
             break;
 
