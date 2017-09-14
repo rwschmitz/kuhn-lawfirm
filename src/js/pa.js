@@ -4,6 +4,7 @@ $(function() {
     $(".pa-1").click(function() {
         $(".pa-1").addClass('pa-button-active');
         si = 1;
+        console.log(si);
         for (var i=1; i<19; i++) {
             if (i === 1) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
