@@ -49,7 +49,6 @@
 .pa-button {
   border: 1px solid #231f20;
   background-color: rgba(234, 234, 234, 0.25);
-  color: #231f20;
   cursor: pointer;
   padding: 10px;
   -webkit-transition-duration: 250ms;
