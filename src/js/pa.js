@@ -9,7 +9,7 @@ $(function() {
     $(".pa-1").click(function() {
         $(".pa-1").addClass('pa-button-active');
         for (var i=2; i<17; i++) {
-            $(".pa" + i ).removeClass('pa-button-active');
+            $(".pa-" + i ).removeClass('pa-button-active');
         }
     });
 });
