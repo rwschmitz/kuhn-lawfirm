@@ -200,6 +200,6 @@ $(function() {
 
 $(function () {
     if(si===1) {
-        $(".pa-9").hide();
+        $(".pa-button").hide();
     }
 });
