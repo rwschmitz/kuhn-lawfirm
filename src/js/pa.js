@@ -200,15 +200,15 @@ $(function() {
 
 $(function() {
     switch(si) {
-        case si = 1:
+        case si === 1:
             $(".pa-9").hide();
             break;
 
-        case si = 2:
+        case si === 2:
             $(".subprac-info").text("test2");
             break;
 
-        case si = 3:
+        case si === 3:
             $(".subprac-info").text("test2");
             break;
 
