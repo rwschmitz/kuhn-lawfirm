@@ -1,5 +1,5 @@
 $(function() {
-    for (var j = 1; j < 19;) {
+    for (var j; j < 19;) {
        $(".pa-" + j).click(function() {
           $(".pa-" + j).addClass('pa-button-active');
           for (var i = 1; i < 19; i++) {
