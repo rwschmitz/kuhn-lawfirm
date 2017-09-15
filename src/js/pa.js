@@ -8,6 +8,9 @@ $(function() {
             if (i === 1) { continue; }
             $(".pa-" + i ).removeClass('pa-button-active');
         }
+        if (si===1) {
+            $(".pa-button").hide();
+        }
     });
 });
 
@@ -198,7 +201,5 @@ $(function() {
     });
 });
 
-if (si===1) {
-    $(".pa-button").hide();
-}
+
  
