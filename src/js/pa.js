@@ -4,7 +4,7 @@ $(function() {
        si = 1;
        for (var i = 1; i < 19; i++) {
           if (i === 1) {
-            $(".subprac-info-active").fadeOut(1000).fadeIn(1000).text("what's good tho");
+            $(".subprac-info-active").fadeIn(1000).text("what's good tho");
             continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
@@ -18,7 +18,7 @@ $(function() {
        si = 2;
        for (var i = 1; i < 19; i++) {
           if (i === 2) {
-            $(".subprac-info-active").fadeOut(1000).fadeIn(1000).text("not much tho");
+            $(".subprac-info-active").fadeIn(1000).text("not much tho");
             continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
