@@ -4,7 +4,7 @@ $(function() {
        si = 1;
        for (var i = 1; i < 19; i++) {
           if (i === 1) {
-            $(".subprac-info").fadeIn(500).text("what's good tho");
+            $(".subprac-info").fadeIn(500).text("what's good tho").fadeIn(500);
             continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
