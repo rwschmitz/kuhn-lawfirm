@@ -200,6 +200,9 @@ $(function() {
 
 $(function() {
     if (si === 1) {
-        $(".pa-button").hide();
+       $(function() {
+          $(".pa-button").hide();
+       });
     }
-});
+ });
+ 
