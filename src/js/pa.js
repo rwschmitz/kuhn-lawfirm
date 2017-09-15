@@ -1,6 +1,6 @@
 $(function() {
     var si;
-    
+
     $(function() {
        $(".pa-1").click(function() {
           $(".pa-1").addClass('pa-button-active');
@@ -10,9 +10,6 @@ $(function() {
                 continue;
              }
              $(".pa-" + i).removeClass('pa-button-active');
-          }
-          if (si === 1) {
-             $(".subprac-info").text("Hello world!");
           }
        });
     });
@@ -237,5 +234,13 @@ $(function() {
           }
        });
     });
+
+    if (si === 1) {
+        $(".subprac-info").text("Hello world!");
+     }
+
+
+
+
  });
  
