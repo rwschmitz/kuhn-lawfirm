@@ -198,8 +198,8 @@ $(function() {
     });
 });
 
-$(function () {
-    if(si===1) {
+$(function() {
+    if (si === 1) {
         $(".pa-button").hide();
     }
 });
