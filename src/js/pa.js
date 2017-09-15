@@ -9,7 +9,7 @@ $(function() {
             $(".pa-" + i ).removeClass('pa-button-active');
         }
         if (si===1) {
-            $(".pa-button").hide();
+            $(".subprac-info").text("Hello world!");
         }
     });
 });
