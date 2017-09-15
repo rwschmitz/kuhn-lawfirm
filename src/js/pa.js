@@ -4,8 +4,8 @@ $(function() {
        si = 1;
        for (var i = 1; i < 19; i++) {
           if (i === 1) {
-              $(".subprac-info").text("what's good tho");
-             continue;
+            $(".subprac-info").text("what's good tho");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
        }
@@ -18,7 +18,8 @@ $(function() {
        si = 2;
        for (var i = 1; i < 19; i++) {
           if (i === 2) {
-             continue;
+            $(".subprac-info").text("not much tho");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
        }
@@ -31,7 +32,8 @@ $(function() {
        si = 3;
        for (var i = 1; i < 19; i++) {
           if (i === 3) {
-             continue;
+            $(".subprac-info").text("lmao ok");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
        }
