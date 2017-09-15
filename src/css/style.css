@@ -80,11 +80,10 @@ html, body {
 .subprac-info {
   background-color: #eaeaea;
   color: #231f20;
-  border: 1px solid #231f20;
-  display: none; }
+  border: 1px solid #231f20; }
 
 .subprac-info-active {
-  display: block; }
+  display: none; }
 
 .navbar-toggler-icon {
   color: #eaeaea;
