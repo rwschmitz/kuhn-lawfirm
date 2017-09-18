@@ -1,3 +1,5 @@
+// This function makes it so that when a practice area is clicked, an active class is set.  After, the function removes the active class from all other practice areas.
+
 $(function() {
     $(".pa-1").click(function() {
        $(".pa-1").addClass('pa-button-active');
@@ -5,10 +7,8 @@ $(function() {
        for (var i = 1; i < 19; i++) {
           if (i === 1) {
             $(".si-1").fadeIn(1000).text("what's good tho");
-            break;
-          }
-          else {
-            $(".si-1").fadeOut(1000);
+            $(".si-" + i).fadeOut(1000);
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
        }
@@ -22,10 +22,8 @@ $(function() {
        for (var i = 1; i < 19; i++) {
           if (i === 2) {
             $(".si-2").fadeIn(1000).text("not much tho");
-            break;
-          }
-          else {
-            $("si.2").fadeOut(1000);
+            $(".si-" + i).fadeOut(1000);
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
        }
@@ -39,10 +37,8 @@ $(function() {
        for (var i = 1; i < 19; i++) {
           if (i === 3) {
             $(".si-3").fadeIn(500).text("lmao ok");
-            break;
-          }
-          else {
-            $(".si-3").fadeOut(1000);
+            $(".si-" + i).fadeOut(1000);
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
        }
