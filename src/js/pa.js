@@ -5,7 +5,7 @@ $(function() {
        for (var i = 1; i < 19; i++) {
           if (i === 1) {
             $(".si-1").fadeIn(1000).text("what's good tho");
-            continue;
+            break;
           }
           else {
             $(".si-1").fadeOut(1000);
@@ -22,7 +22,7 @@ $(function() {
        for (var i = 1; i < 19; i++) {
           if (i === 2) {
             $(".si-2").fadeIn(1000).text("not much tho");
-            continue;
+            break;
           }
           else {
             $("si.2").fadeOut(1000);
@@ -39,7 +39,7 @@ $(function() {
        for (var i = 1; i < 19; i++) {
           if (i === 3) {
             $(".si-3").fadeIn(500).text("lmao ok");
-            continue;
+            break;
           }
           else {
             $(".si-3").fadeOut(1000);
