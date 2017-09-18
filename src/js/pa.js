@@ -10,7 +10,7 @@ $(function() {
             continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
-          $(".si-" + i).fadeOut(1000);
+          $(".si-" + i).hide();
        }
     });
  });
@@ -25,7 +25,7 @@ $(function() {
             continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
-          $(".si-" + i).fadeOut(1000);
+          $(".si-" + i).hide();
        }
     });
  });
@@ -40,7 +40,7 @@ $(function() {
             continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
-          $(".si-" + i).fadeOut(1000);
+          $(".si-" + i).hide();
        }
     });
  });
