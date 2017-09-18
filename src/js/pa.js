@@ -7,6 +7,9 @@ $(function() {
             $(".si-1").fadeIn(1000).text("what's good tho");
             continue;
           }
+          else {
+            $(".si-1").fadeOut(1000);
+          }
           $(".pa-" + i).removeClass('pa-button-active');
        }
     });
@@ -21,6 +24,9 @@ $(function() {
             $(".si-2").fadeIn(1000).text("not much tho");
             continue;
           }
+          else {
+            $("si.2").fadeOut(1000);
+          }
           $(".pa-" + i).removeClass('pa-button-active');
        }
     });
@@ -34,6 +40,9 @@ $(function() {
           if (i === 3) {
             $(".si-3").fadeIn(500).text("lmao ok");
             continue;
+          }
+          else {
+            $(".si-3").fadeOut(1000);
           }
           $(".pa-" + i).removeClass('pa-button-active');
        }
