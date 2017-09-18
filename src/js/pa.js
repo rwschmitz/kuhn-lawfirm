@@ -6,7 +6,7 @@ $(function() {
        si = 1;
        for (var i = 1; i < 19; i++) {
           if (i === 1) {
-            $(".si-1").fadeIn(1500).text("what's good tho");
+            $(".si-1").fadeIn(1500).text("This is some filler information about sub-practice area 1.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
             continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
@@ -21,7 +21,7 @@ $(function() {
        si = 2;
        for (var i = 1; i < 19; i++) {
           if (i === 2) {
-            $(".si-2").fadeIn(1500).text("not much tho");
+            $(".si-2").fadeIn(1500).text("This is some filler information about sub-practice area 2.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
             continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
@@ -36,7 +36,7 @@ $(function() {
        si = 3;
        for (var i = 1; i < 19; i++) {
           if (i === 3) {
-            $(".si-3").fadeIn(1500).text("lmao ok");
+            $(".si-3").fadeIn(1500).text("This is some filler information about sub-practice area 3.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
             continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
@@ -51,9 +51,11 @@ $(function() {
        si = 4;
        for (var i = 1; i < 19; i++) {
           if (i === 4) {
-             continue;
+            $(".si-4").fadeIn(1500).text("This is some filler information about sub-practice area 4.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
+          $(".si-" + i).hide();
        }
     });
  });
@@ -64,9 +66,11 @@ $(function() {
        si = 5;
        for (var i = 1; i < 19; i++) {
           if (i === 5) {
-             continue;
+            $(".si-5").fadeIn(1500).text("This is some filler information about sub-practice area 5.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
+          $(".si-" + i).hide();
        }
     });
  });
@@ -77,9 +81,11 @@ $(function() {
        si = 6;
        for (var i = 1; i < 19; i++) {
           if (i === 6) {
-             continue;
+            $(".si-6").fadeIn(1500).text("This is some filler information about sub-practice area 6.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
+          $(".si-" + i).hide();
        }
     });
  });
@@ -90,9 +96,11 @@ $(function() {
        si = 7;
        for (var i = 1; i < 19; i++) {
           if (i === 7) {
-             continue;
+            $(".si-7").fadeIn(1500).text("This is some filler information about sub-practice area 7.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
+          $(".si-" + i).hide();
        }
     });
  });
@@ -103,9 +111,11 @@ $(function() {
        si = 8;
        for (var i = 1; i < 19; i++) {
           if (i === 8) {
-             continue;
+            $(".si-8").fadeIn(1500).text("This is some filler information about sub-practice area 8.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
+          $(".si-" + i).hide();
        }
     });
  });
@@ -116,9 +126,11 @@ $(function() {
        si = 9;
        for (var i = 1; i < 19; i++) {
           if (i === 9) {
-             continue;
+            $(".si-9").fadeIn(1500).text("This is some filler information about sub-practice area 9.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
+          $(".si-" + i).hide();
        }
     });
  });
@@ -129,9 +141,11 @@ $(function() {
        si = 10;
        for (var i = 1; i < 19; i++) {
           if (i === 10) {
-             continue;
+            $(".si-10").fadeIn(1500).text("This is some filler information about sub-practice area 10.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
+          $(".si-" + i).hide();
        }
     });
  });
@@ -142,9 +156,11 @@ $(function() {
        si = 11;
        for (var i = 1; i < 19; i++) {
           if (i === 11) {
-             continue;
+            $(".si-11").fadeIn(1500).text("This is some filler information about sub-practice area 11.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
+          $(".si-" + i).hide();
        }
     });
  });
@@ -155,9 +171,11 @@ $(function() {
        si = 12;
        for (var i = 1; i < 19; i++) {
           if (i === 12) {
-             continue;
+            $(".si-12").fadeIn(1500).text("This is some filler information about sub-practice area 12.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
+          $(".si-" + i).hide();
        }
     });
  });
@@ -168,9 +186,11 @@ $(function() {
        si = 13;
        for (var i = 1; i < 19; i++) {
           if (i === 13) {
-             continue;
+            $(".si-13").fadeIn(1500).text("This is some filler information about sub-practice area 13.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
+          $(".si-" + i).hide();
        }
     });
  });
@@ -181,9 +201,11 @@ $(function() {
        si = 14;
        for (var i = 1; i < 19; i++) {
           if (i === 14) {
-             continue;
+            $(".si-14").fadeIn(1500).text("This is some filler information about sub-practice area 14.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
+          $(".si-" + i).hide();
        }
     });
  });
@@ -194,9 +216,11 @@ $(function() {
        si = 15;
        for (var i = 1; i < 19; i++) {
           if (i === 15) {
-             continue;
+            $(".si-15").fadeIn(1500).text("This is some filler information about sub-practice area 15.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
+          $(".si-" + i).hide();
        }
     });
  });
@@ -207,9 +231,11 @@ $(function() {
        si = 16;
        for (var i = 1; i < 19; i++) {
           if (i === 16) {
-             continue;
+            $(".si-16").fadeIn(1500).text("This is some filler information about sub-practice area 16.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
+          $(".si-" + i).hide();
        }
     });
  });
@@ -220,9 +246,11 @@ $(function() {
        si = 17;
        for (var i = 1; i < 19; i++) {
           if (i === 17) {
-             continue;
+            $(".si-17").fadeIn(1500).text("This is some filler information about sub-practice area 17.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
+          $(".si-" + i).hide();
        }
     });
  });
@@ -233,9 +261,11 @@ $(function() {
        si = 18;
        for (var i = 1; i < 19; i++) {
           if (i === 18) {
-             continue;
+            $(".si-18").fadeIn(1500).text("This is some filler information about sub-practice area 18.  This will be filled with actual, relevant information in the future.  For now, however, all of the content contained within this row is simply irrelevant and serves no purpose other than to test out my code and how it will look.  This particular JavaScript file that I wrote is called pa.js.  The p stands for practice and the a stands for area.  For loops, as well as if statements are very useful.  This is enough text.");
+            continue;
           }
           $(".pa-" + i).removeClass('pa-button-active');
+          $(".si-" + i).hide();
        }
     });
  });
