@@ -57,7 +57,7 @@ html, body {
 .content a:hover {
   color: #eaeaea; }
 
-.pa-button {
+.pa-button, .contact-submit-button {
   border: 1px solid #231f20;
   background-color: rgba(234, 234, 234, 0.25);
   cursor: pointer;
@@ -73,12 +73,12 @@ html, body {
   -o-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out; }
 
-.pa-button:hover, .disclaimer-button:hover {
+.pa-button:hover, .contact-submit-button:hover, .disclaimer-button:hover {
   background-color: #eaeaea;
   color: #231f20;
   border-radius: 0px 10px 0px 10px; }
 
-.pa-button:focus, .disclaimer-button:focus {
+.pa-button:focus, .contact-submit-button:focus, .contact-button-focus, .disclaimer-button:focus {
   outline: 0; }
 
 .pa-button-active {
@@ -100,6 +100,10 @@ html, body {
 
 .si-5 {
   display: block; }
+
+.contact-submit-button:hover {
+  background-color: #28a745;
+  color: #eaeaea; }
 
 .disclaimer-button {
   border: 1px solid #231f20;

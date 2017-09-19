@@ -24,6 +24,7 @@
     $light-color-trans: rgba(234, 234, 234, 0.25);
     $bright-color: #92ba8f;
     $link-color:  #f28500;
+    $submit-color: #28a745;
 
     $animation-fill-mode: forwards;
 
@@ -202,6 +203,19 @@
 
     .si-5 {
         display: block;
+    }
+
+    .contact-submit-button {
+        @extend .pa-button;
+    }
+
+    .contact-submit-button:hover {
+        background-color: $submit-color;
+        color: $light-color;
+    }
+
+    .contact-button-focus {
+        @extend .pa-button:focus;
     }
 
     .disclaimer-button {
