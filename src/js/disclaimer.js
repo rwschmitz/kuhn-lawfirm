@@ -12,14 +12,12 @@ $(function() {
     });
  });
 
- /*
  $(function() {
     $(".disclaimer-button").on("click",
         function() {
-            if(active) {
-        $(".disclaimer-button").removeClass('disclaimer-button-active');
-        active = false;
+            if(active === true) {
+                $(".disclaimer-button").removeClass('disclaimer-button-active');
+                active = false;
             }
     });
  });
- */
