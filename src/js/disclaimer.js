@@ -5,10 +5,8 @@ $(function() {
        $(".disclaimer-button").addClass('disclaimer-button-active');
        active = true;
           if (active) {
+            $("disclaimer-button").removeClass('disclaimer-button-active');
             active = false;
-          }
-          else {
-          $("disclaimer-button").removeClass('disclaimer-button-active');
           }
     });
  });
