@@ -10,6 +10,7 @@ $(function() {
     });
  });
 
+ /*
  $(function() {
     $(".disclaimer-button").on("click",
         function() {
@@ -19,3 +20,4 @@ $(function() {
             }
     });
  });
+ */
