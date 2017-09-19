@@ -29,6 +29,10 @@ html, body {
 .accordian-styling a {
   color: #231f20; }
 
+.disclaimer {
+  font-family: "Questrial", sans-serif;
+  font-size: 10px; }
+
 .content a {
   color: #f69256;
   text-decoration: none;

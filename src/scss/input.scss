@@ -8,8 +8,11 @@
     $content-font: 'Questrial', sans-serif;
     $content-font-size: 12px;
 
-    $nav-font: 'Questrial', sans-serif;;
+    $nav-font: 'Questrial', sans-serif;
     $nav-font-size: 12px;
+
+    $disclaimer-font: 'Questrial', sans-serif;
+    $disclaimer-font-size: 10px;
 
     $dark-color: #231f20;
     $light-color: #eaeaea;
@@ -98,6 +101,11 @@
 
     .accordian-styling a {
         color: $dark-color;
+    }
+
+    .disclaimer {
+        font-family: $disclaimer-font;
+        font-size: $disclaimer-font-size;
     }
 
     // Mobile only
