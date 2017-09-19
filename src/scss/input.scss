@@ -30,6 +30,9 @@
 
     // Desktop variables start
 
+    $nav-hover-transition-duration: 250ms;
+    $nav-hover-timing-function: ease-in-out;
+
     $link-hover-transition-duration: 250ms;
     $link-hover-timing-function: ease-in-out;
 
@@ -183,6 +186,23 @@
 
 
     // Bootstrap modifications
+
+    .nav-link {
+        -webkit-transition-duration: $nav-hover-transition-duration;
+        -moz-transition-duration: $nav-hover-transition-duration;
+        -ms-transition-duration: $nav-hover-transition-duration;
+        -o-transition-duration: $nav-hover-transition-duration;
+        transition-duration: $nav-hover-transition-duration;
+        -webkit-transition-timing-function: $nav-hover-timing-function;
+        -moz-transition-timing-function: $nav-hover-timing-function;
+        -ms-transition-timing-function: $nav-hover-timing-function;
+        -o-transition-timing-function: $nav-hover-timing-function;
+        transition-timing-function: $nav-hover-timing-function;
+    }
+
+    .nav-link:hover {
+        color: $bright-color;
+    }
 
     .navbar-toggler-icon {
         color: $light-color;

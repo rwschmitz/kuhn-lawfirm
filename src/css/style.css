@@ -92,6 +92,21 @@ html, body {
 .si-5 {
   display: block; }
 
+.nav-link {
+  -webkit-transition-duration: 250ms;
+  -moz-transition-duration: 250ms;
+  -ms-transition-duration: 250ms;
+  -o-transition-duration: 250ms;
+  transition-duration: 250ms;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -ms-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out; }
+
+.nav-link:hover {
+  color: #92ba8f; }
+
 .navbar-toggler-icon {
   color: #eaeaea;
   height: 1.0em; }
