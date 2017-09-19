@@ -11,6 +11,9 @@
     $nav-font: 'Questrial', sans-serif;
     $nav-font-size: 12px;
 
+    $attorney-font: 'Questrial', sans-serif;
+    $attorney-font-size: 16px;
+
     $icon-size: 24px;
 
     $disclaimer-font: 'Questrial', sans-serif;
@@ -110,6 +113,11 @@
 
     .accordian-styling a {
         color: $dark-color;
+    }
+
+    .attorney {
+        font-family: $attorney-font;
+        font-size: $attorney-font-size;
     }
 
     .disclaimer {
