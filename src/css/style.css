@@ -71,6 +71,7 @@ html, body {
 
 .pa-button:hover, .disclaimer-button:hover {
   background-color: #eaeaea;
+  color: #231f20;
   border-radius: 0px 10px 0px 10px; }
 
 .pa-button:focus, .disclaimer-button:focus {
