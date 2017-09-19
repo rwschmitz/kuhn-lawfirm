@@ -105,10 +105,10 @@ html, body {
   transition-timing-function: ease-in-out; }
 
 .nav-link:hover {
-  color: #92ba8f; }
+  color: #e42f0c; }
 
 .navbar-toggler-icon {
-  color: #e42f0c;
+  color: #eaeaea;
   height: 1.0em; }
 
 .form-control {
