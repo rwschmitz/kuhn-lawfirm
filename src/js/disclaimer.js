@@ -5,8 +5,10 @@ $(function() {
        $(".disclaimer-button").addClass('disclaimer-button-active');
        active = true;
           if (active) {
-            $("disclaimer-button").removeClass('disclaimer-button-active');
-            active = false;
-          }
+            $(".disclaimer-button").click(function() {
+                $(".disclaimer-button").removeClass('disclaimer-button-active');
+                active = false;
+          });
+        }
     });
  });
