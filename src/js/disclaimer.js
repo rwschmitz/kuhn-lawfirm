@@ -8,7 +8,7 @@ $(function() {
             active = false;
           }
           else {
-          $("disclaimer-button").removeClass('pa-button-active');
+          $("disclaimer-button").removeClass('disclaimer-button-active');
           }
     });
  });
