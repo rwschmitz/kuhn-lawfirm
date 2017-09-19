@@ -1,13 +1,13 @@
 // This function makes it so that when the disclaimer is clicked, an active class is set.
 
-var active = false;
+var active = 0;
 
 $(function() {
     $(".disclaimer-button").on("click", 
         function() {
-            if(active === false) {
+            if(active === 0) {
                 $(".disclaimer-button").addClass('disclaimer-button-active');
-                active = true;
+                active = 1;
             }
     });
  });
@@ -15,8 +15,9 @@ $(function() {
  $(function() {
     $(".disclaimer-button").on("click",
         function() {
-            if(active === true) {
+            if(active === 1) {
                 $(".disclaimer-button").removeClass('disclaimer-button-active');
+                active = 0;
             }
     });
  });
