@@ -17,7 +17,6 @@ $(function() {
         function() {
             if(active === true) {
                 $(".disclaimer-button").removeClass('disclaimer-button-active');
-                active = false;
             }
     });
  });
