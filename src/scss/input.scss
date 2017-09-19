@@ -203,7 +203,7 @@
         border: 1px solid $dark-color;
         background-color: transparent;
         cursor: pointer;
-        padding: 10px;
+        padding: 5px;
         -webkit-transition-duration: $disclaimer-hover-transition-duration;
         -moz-transition-duration: $disclaimer-hover-transition-duration;
         -ms-transition-duration: $disclaimer-hover-transition-duration;
@@ -217,8 +217,13 @@
     }
 
     .disclaimer-button:hover {
-        background-color: $light-color;
-        border-radius: 0px 10px 0px 10px;
+        background-color: $link-color;
+        color: $light-color;
+        border-color: $light-color;
+    }
+
+    .disclaimer-button:focus {
+        outline: 0;
     }
 
     // Bootstrap modifications
