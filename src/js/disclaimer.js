@@ -3,11 +3,11 @@
 $(function() {
     $(".disclaimer-button").click(function() {
        $(".disclaimer-button").addClass('disclaimer-button-active');
-       active = true;
+       active = false;
           if (active) {
             $(".disclaimer-button").click(function() {
                 $(".disclaimer-button").removeClass('disclaimer-button-active');
-                active = false;
+                active = true;
           });
         }
     });
