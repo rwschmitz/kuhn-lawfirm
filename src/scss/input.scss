@@ -222,7 +222,9 @@
     }
     
     .disclaimer-button-active {
-        @extend .pa-button-active;
+        background-color: $light-color;
+        color: $dark-color;
+        border-radius: 0px 10px 0px 10px;
     }
 
     // Bootstrap modifications

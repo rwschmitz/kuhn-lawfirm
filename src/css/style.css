@@ -77,7 +77,7 @@ html, body {
 .pa-button:focus, .disclaimer-button:focus {
   outline: 0; }
 
-.pa-button-active, .disclaimer-button-active {
+.pa-button-active {
   background-color: #eaeaea;
   color: #231f20;
   border-radius: 0px 10px 0px 10px; }
@@ -112,6 +112,11 @@ html, body {
   -ms-transition-timing-function: ease-in-out;
   -o-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out; }
+
+.disclaimer-button-active {
+  background-color: #eaeaea;
+  color: #231f20;
+  border-radius: 0px 10px 0px 10px; }
 
 .nav-link {
   -webkit-transition-duration: 250ms;
