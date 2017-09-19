@@ -44,6 +44,9 @@
     $pa-hover-transition-duration: 250ms;
     $pa-hover-timing-function: ease-in-out;
 
+    $disclaimer-hover-transition-duration: 250ms;
+    $disclaimer-hover-timing-function: ease-in-out;
+
     // Desktop variables end
 
 
@@ -196,8 +199,27 @@
         display: block;
     }
 
+    .disclaimer-button {
+        border: 1px solid $dark-color;
+        background-color: transparent;
+        cursor: pointer;
+        padding: 10px;
+        -webkit-transition-duration: $disclaimer-hover-transition-duration;
+        -moz-transition-duration: $disclaimer-hover-transition-duration;
+        -ms-transition-duration: $disclaimer-hover-transition-duration;
+        -o-transition-duration: $disclaimer-hover-transition-duration;
+        transition-duration: $disclaimer-hover-transition-duration;
+        -webkit-transition-timing-function: $disclaimer-hover-timing-function;
+        -moz-transition-timing-function: $disclaimer-hover-timing-function;
+        -ms-transition-timing-function: $disclaimer-hover-timing-function;
+        -o-transition-timing-function: $disclaimer-hover-timing-function;
+        transition-timing-function: $disclaimer-hover-timing-function;
+    }
 
-
+    .disclaimer-button:hover {
+        background-color: $light-color;
+        border-radius: 0px 10px 0px 10px;
+    }
 
     // Bootstrap modifications
 
