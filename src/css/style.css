@@ -37,7 +37,7 @@ html, body {
   font-size: 10px; }
 
 .content a {
-  color: #f69256;
+  color: #f28500;
   text-decoration: none;
   -webkit-transition-duration: 250ms;
   -moz-transition-duration: 250ms;
@@ -131,7 +131,7 @@ html, body {
   transition-timing-function: ease-in-out; }
 
 .nav-link:hover {
-  color: #f69256; }
+  color: #f28500; }
 
 .navbar-toggler-icon {
   color: #eaeaea;
