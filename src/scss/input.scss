@@ -11,6 +11,8 @@
     $nav-font: 'Questrial', sans-serif;
     $nav-font-size: 12px;
 
+    $icon-size: 18px;
+
     $disclaimer-font: 'Questrial', sans-serif;
     $disclaimer-font-size: 10px;
 
@@ -97,6 +99,10 @@
 
     .nav-styling a {
         color: $light-color;
+    }
+
+    .icons {
+        font-size: $icon-size;
     }
 
     .accordian-styling a {
