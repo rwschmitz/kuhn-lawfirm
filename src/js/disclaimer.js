@@ -11,8 +11,8 @@ $(function() {
 
  $(function() {
     $(".disclaimer-button").click(function() {
-        if(active === 1) {
-       $(".disclaimer-button").addClass('disclaimer-button-active');
+        if(active) {
+       $(".disclaimer-button").removeClass('disclaimer-button-active');
        active = false;
         }
     });
