@@ -69,14 +69,14 @@ html, body {
   -o-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out; }
 
-.pa-button:hover {
+.pa-button:hover, .disclaimer-button:hover {
   background-color: #eaeaea;
   border-radius: 0px 10px 0px 10px; }
 
-.pa-button:focus {
+.pa-button:focus, .disclaimer-button:focus {
   outline: 0; }
 
-.pa-button-active {
+.pa-button-active, .disclaimer-button-active {
   background-color: #eaeaea;
   color: #231f20;
   border-radius: 0px 10px 0px 10px; }
@@ -88,9 +88,6 @@ html, body {
   background-color: #eaeaea;
   color: #231f20;
   border: 1px solid #231f20; }
-
-.subprac-info-active {
-  display: none; }
 
 .si-1, .si-2, .si-3, .si-4, .si-5, .si-6, .si-7, .si-8, .si-9, .si-10, .si-11, .si-12, .si-13, .si-14, .si-15, .si-16, .si-17, .si-18 {
   display: none;
@@ -114,12 +111,6 @@ html, body {
   -ms-transition-timing-function: ease-in-out;
   -o-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out; }
-
-.disclaimer-button:hover {
-  background-color: #f69256; }
-
-.disclaimer-button:focus {
-  outline: 0; }
 
 .nav-link {
   -webkit-transition-duration: 250ms;
