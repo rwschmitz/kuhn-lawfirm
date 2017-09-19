@@ -3,17 +3,19 @@
 var active = false;
 
 $(function() {
-    $(".disclaimer-button").click(function() {
-       $(".disclaimer-button").addClass('disclaimer-button-active');
-       active = true;
+    $(".disclaimer-button").on("click", 
+        function() {
+            $(".disclaimer-button").addClass('disclaimer-button-active');
+            active = true;
     });
  });
 
  $(function() {
-    $(".disclaimer-button").click(function() {
-        if(active) {
-       $(".disclaimer-button").removeClass('disclaimer-button-active');
-       active = false;
-        }
+    $(".disclaimer-button").on("click",
+        function() {
+            if(active) {
+        $(".disclaimer-button").removeClass('disclaimer-button-active');
+        active = false;
+            }
     });
  });
