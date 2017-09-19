@@ -105,11 +105,22 @@ html, body {
   background-color: transparent;
   color: #231f20;
   border: 1px solid #231f20;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-transition-duration: 250ms;
+  -moz-transition-duration: 250ms;
+  -ms-transition-duration: 250ms;
+  -o-transition-duration: 250ms;
+  transition-duration: 250ms;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -ms-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out; }
 
 .contact-submit-button:hover {
   background-color: #28a745;
-  color: #eaeaea; }
+  color: #eaeaea;
+  border-color: #28a745; }
 
 .contact-button-focus {
   outline: 0; }

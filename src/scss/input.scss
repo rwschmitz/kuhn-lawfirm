@@ -48,6 +48,9 @@
     $pa-hover-transition-duration: 250ms;
     $pa-hover-timing-function: ease-in-out;
 
+    $submit-hover-transition-duration: 250ms;
+    $submit-hover-timing-function: ease-in-out;
+
     $disclaimer-hover-transition-duration: 250ms;
     $disclaimer-hover-timing-function: ease-in-out;
 
@@ -210,11 +213,22 @@
         color: $dark-color;
         border: 1px solid $dark-color;
         cursor: pointer;
+        -webkit-transition-duration: $submit-hover-transition-duration;
+        -moz-transition-duration: $submit-hover-transition-duration;
+        -ms-transition-duration: $submit-hover-transition-duration;
+        -o-transition-duration: $submit-hover-transition-duration;
+        transition-duration: $submit-hover-transition-duration;
+        -webkit-transition-timing-function: $submit-hover-timing-function;
+        -moz-transition-timing-function: $submit-hover-timing-function;
+        -ms-transition-timing-function: $submit-hover-timing-function;
+        -o-transition-timing-function: $submit-hover-timing-function;
+        transition-timing-function: $submit-hover-timing-function;
     }
 
     .contact-submit-button:hover {
         background-color: $submit-color;
         color: $light-color;
+        border-color: $submit-color;
     }
 
     .contact-button-focus {
