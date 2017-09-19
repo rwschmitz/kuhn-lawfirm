@@ -116,9 +116,7 @@ html, body {
   transition-timing-function: ease-in-out; }
 
 .disclaimer-button:hover {
-  background-color: #f69256;
-  color: #eaeaea;
-  border-color: #eaeaea; }
+  background-color: #f69256; }
 
 .disclaimer-button:focus {
   outline: 0; }
