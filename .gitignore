@@ -1,6 +1,7 @@
 # ignore directories
 node_modules
 src/.sass-cache
+src/calcs
 src/docs
 src/iconic
 src/scss/.sass-cache
