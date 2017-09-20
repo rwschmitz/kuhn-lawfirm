@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['email'])) {
+if(isset($_POST['yourEmail'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "rudolph.w.schmitz@gmail.com";
@@ -69,9 +69,7 @@ if(isset($_POST['email'])) {
       $bad = array("content-type","bcc:","to:","cc:","href");
       return str_replace($bad,"",$string);
     }
- 
-     
- 
+
     $email_message .= "First Name: ".clean_string($end_user_name)."\n";
     $email_message .= "Email: ".clean_string($end_user_email)."\n";
     $email_message .= "Phone Number: ".clean_string($end_user_phone_number)."\n";
@@ -81,12 +79,14 @@ if(isset($_POST['email'])) {
 $headers = 'From: '.$end_user_email."\r\n".
 'Reply-To: '.$end_user_email."\r\n" .
 'X-Mailer: PHP/' . phpversion();
-@mail($email_to, $email_subject, $email_message, $headers);  
+@mail($email_to, $email_subject, $email_message, $headers);
+  
 ?>
  
 <!-- include your own success html here -->
  
 Thank you for contacting us. We will be in touch with you very soon.
+
  
 <?php
  
