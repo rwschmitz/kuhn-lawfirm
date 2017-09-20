@@ -5,7 +5,7 @@ if(isset($_POST['yourEmail'])) {
     $email_to = "rudolph.w.schmitz@gmail.com";
     $email_subject = "Test Subject Line";
 
-    /*
+    
     function died($error) {
         // your error code can go here
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
@@ -17,14 +17,13 @@ if(isset($_POST['yourEmail'])) {
  
  
     // validation expected data exists
-    if(!isset($_POST['first_name']) ||
-        !isset($_POST['last_name']) ||
-        !isset($_POST['email']) ||
-        !isset($_POST['telephone']) ||
-        !isset($_POST['comments'])) {
+    if(!isset($_POST['yourName']) ||
+        !isset($_POST['yourEmail']) ||
+        !isset($_POST['yourPhoneNumber']) ||
+        !isset($_POST['yourMessage'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
     }
-    */
+    
  
      
  
