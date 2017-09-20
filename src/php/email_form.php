@@ -5,7 +5,7 @@ if(isset($_POST['yourEmail'])) {
     $email_to = "rudolph.w.schmitz@gmail.com";
     $email_subject = "Test Subject Line";
 
-    
+    /*
     function died($error) {
         // your error code can go here
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
@@ -23,6 +23,7 @@ if(isset($_POST['yourEmail'])) {
         !isset($_POST['yourMessage'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
     }
+    */
     
  
      
