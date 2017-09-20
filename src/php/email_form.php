@@ -1,12 +1,11 @@
 <?php
 
-ini_set ('display errors', On);
-error_reporting(E_ALL);
 
-if(isset($_POST['yourEmail'])) {
+
+  echo "testing the upload...";
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "rudolph.w.schmitz@gmail.com";
+    $email_to = "admin@newtpress.com";
     $email_subject = "Test Subject Line";
 
     /*
@@ -84,6 +83,8 @@ $headers = 'From: '.$end_user_email."\r\n".
 'Reply-To: '.$end_user_email."\r\n" .
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);
+
+
   
 ?>
  
@@ -93,6 +94,5 @@ Thank you for contacting us. We will be in touch with you very soon.
 
  
 <?php
- 
-}
+
 ?>
