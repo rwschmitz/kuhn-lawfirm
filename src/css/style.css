@@ -73,12 +73,12 @@ html, body {
   -o-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out; }
 
-.pa-button:hover, .disclaimer-button:hover {
+.pa-button:hover {
   background-color: #eaeaea;
   color: #231f20;
   border-radius: 0px 10px 0px 10px; }
 
-.pa-button:focus, .disclaimer-button:focus {
+.pa-button:focus {
   outline: 0; }
 
 .pa-button-active {
@@ -144,6 +144,14 @@ html, body {
   -o-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out; }
 
+.disclaimer-button:hover {
+  background-color: #eaeaea;
+  color: #231f20;
+  border-radius: 0px 10px 0px 10px; }
+
+.disclaimer-button:focus {
+  outline: 0; }
+
 .disclaimer-button-active {
   background-color: #eaeaea;
   color: #231f20;
@@ -191,5 +199,8 @@ html, body {
   padding: 0.5rem;
   font-family: "Questrial", sans-serif;
   font-size: 14px; }
+
+.invalid-feedback {
+  font-size: 12px; }
 
 /*# sourceMappingURL=style.css.map */

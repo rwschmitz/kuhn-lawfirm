@@ -256,11 +256,13 @@
     }
 
     .disclaimer-button:hover {
-        @extend .pa-button:hover;
+        background-color: $light-color;
+        color: $dark-color;
+        border-radius: 0px 10px 0px 10px;
     }
 
     .disclaimer-button:focus {
-        @extend .pa-button:focus;
+        outline: 0;
     }
     
     .disclaimer-button-active {
@@ -324,7 +326,7 @@
     }
 
     .invalid-feedback {
-        font-size: 12px!important;
+        font-size: 12px;
     }
 
 // #####  IDS AND CLASSES END #####
