@@ -721,32 +721,44 @@
             </div>
         </div>
 
-        <form>
+        <form id="needs-validation" novalidate>
             <div class="form-row content justify-content-center">
                 <div class="form-group col-12 col-xl-6">
                     <label class="form-control-label" for="yourName">Your Name</label>
-                    <input type="text" class="form-control" id="yourName" placeholder="Joe Smith">
+                    <input type="text" class="form-control" id="yourName" placeholder="Joe Smith" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid name.
+                        </div>
                 </div>
             </div>
 
             <div class="form-row content justify-content-center">
                 <div class="form-group col-12 col-xl-6">
                     <label class="form-control-label" for="yourEmail">Your Email Address</label>
-                    <input type="text" class="form-control" id="yourEmail" placeholder="example@gmail.com">
+                    <input type="text" class="form-control" id="yourEmail" placeholder="example@gmail.com" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid e-mail.
+                        </div>
                 </div>
             </div>
 
             <div class="form-row content justify-content-center">
                 <div class="form-group col-12 col-xl-6">
                     <label class="form-control-label" for="yourPhoneNumber">Your Phone Number</label>
-                    <input type="text" class="form-control" id="yourPhoneNumber" placeholder="(555) 555-5555">
+                    <input type="text" class="form-control" id="yourPhoneNumber" placeholder="(555) 555-5555" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid phone number.
+                        </div>
                 </div>
             </div>
 
             <div class="form-row content justify-content-center">
                 <div class="form-group col-12 col-xl-6">
                     <label for="yourMessage">Your Message</label>
-                    <textarea class="form-control" id="yourMessage" placeholder="Hello! I had a few questions about..." rows="8"></textarea>
+                    <textarea class="form-control" id="yourMessage" placeholder="Hello! I had a few questions about..." rows="8" required></textarea>
+                        <div class="invalid-feedback">
+                            Please provide a valid message.
+                        </div>
                 </div>
             </div>
 
@@ -792,6 +804,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="src/js/pa.js"></script>
     <script src="src/js/disclaimer.js"></script>
+    <script src="src/js/emailForm.js"></script>
 
 
 
