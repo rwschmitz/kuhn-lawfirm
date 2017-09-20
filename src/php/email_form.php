@@ -1,4 +1,8 @@
 <?php
+
+ini_set ('display errors', On);
+error_reporting(E_ALL);
+
 if(isset($_POST['yourEmail'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
