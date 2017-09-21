@@ -1,5 +1,4 @@
 <?php
-chmod("/home/rudojqwy/newtpress.com/src/php/email_form.php", 0644);
 
 if (!empty($_POST['yourName'])
  && !empty($_POST['yourEmail'])
