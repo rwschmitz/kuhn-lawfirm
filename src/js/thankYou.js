@@ -1,4 +1,4 @@
-window.onload = function thankyou() {
+/*window.onload = function thankyou() {
     console.log("hello world?");
     var form = document.getElementById("needs-validation");
     for(var f in form) {
@@ -15,4 +15,11 @@ window.onload = function thankyou() {
             $("thankYouModal").show();
         }
     }
-};
+};*/
+
+$(function() {
+    $("contact-submit-button").on("click",
+        function() {
+            $("thankYouModal").show();
+    });
+});
