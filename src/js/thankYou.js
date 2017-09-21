@@ -13,6 +13,7 @@ function contactForm() {
           })
        });
     });
+    return false;
  }
  
 
