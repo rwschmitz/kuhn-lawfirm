@@ -16,10 +16,9 @@
         }
     }
 };*/
-
 $(function() {
-    $("contact-submit-button").on("click",
-        function() {
-            $("thankYouModal").show();
+    $('.contact-submit-button').on("click",
+    function() {
+        $('#thankYouModal').modal('show');
     });
 });
