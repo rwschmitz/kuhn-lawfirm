@@ -6,8 +6,9 @@ $(function() {
             data: $('#needs-validation').serialize(),
             success: function() {
                 ("#thankYouModal").modal('show');
-                document.getElementById("needs-validation").reset();
+                
             }
         });
+        document.getElementById("needs-validation").reset();
     });
 });
