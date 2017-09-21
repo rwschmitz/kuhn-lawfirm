@@ -1,4 +1,23 @@
-function contactForm () {
+function contactForm() {
+    $('#needs-validation').submit(function(e) {
+       e.preventDefault();
+       $.ajax({
+          url: './src/php/email_form.php',
+          type: 'post',
+          data: $('#needs-validation').serialize,
+          success: $(function() {
+             $('.contact-submit-button').on("click",
+                function() {
+                   $('#thankYouModal').modal('show');
+                });
+          })
+       });
+    });
+ }
+ 
+
+
+/*function contactForm () {
     e.preventDefault();
     $.ajax({
         url: './src/php/email_form.php',
