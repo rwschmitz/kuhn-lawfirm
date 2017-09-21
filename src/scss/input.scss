@@ -75,6 +75,10 @@
 
     // Sitewide
 
+    html {
+        zoom: 1.5;
+    }
+
     html, body {
         background: linear-gradient(135deg, $bright-color, $light-color);
         background-repeat: no-repeat;
