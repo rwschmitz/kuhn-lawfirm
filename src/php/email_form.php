@@ -69,5 +69,5 @@ Thank you for contacting us. We will be in touch with you very soon.
  
 <?php
 }
-chmod("email_form.php",0644);
+chmod("/src/php/email_form.php",0644);
 ?>
