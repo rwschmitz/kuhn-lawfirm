@@ -1,7 +1,3 @@
-function formSubmit() {
-  document.forms.contactForm.submit();
-}
-
 $(function() {
   "use strict";
   window.addEventListener("load", function() {
