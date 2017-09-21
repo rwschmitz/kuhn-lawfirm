@@ -2,7 +2,7 @@ function contactForm() {
     $('#needs-validation').submit(function(e) {
        e.preventDefault();
        $.ajax({
-          url: './src/php/email_form.php',
+          url: 'email_form.php',
           type: 'post',
           data: $('#needs-validation').serialize,
           success: $(function() {
@@ -13,9 +13,8 @@ function contactForm() {
           })
        });
     });
-    return false;
  }
- 
+
 
 
 /*function contactForm () {
