@@ -1,35 +1,15 @@
 <?php
 
+if (!empty($_POST['yourName'])
+ && !empty($_POST['yourEmail'])
+ && !empty($_POST['yourPhoneNumber'])
+ && !empty($_POST['yourMessage']))
 
+{
 
-  echo "testing the upload...";
- 
-    // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "admin@newtpress.com";
-    $email_subject = "Test Subject Line";
+    $email_subject = "A new message from newtpress.com";
 
-    /*
-    function died($error) {
-        // your error code can go here
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
-        echo "These errors appear below.<br /><br />";
-        echo $error."<br /><br />";
-        echo "Please go back and fix these errors.<br /><br />";
-        die();
-    }
- 
- 
-    // validation expected data exists
-    if(!isset($_POST['yourName']) ||
-        !isset($_POST['yourEmail']) ||
-        !isset($_POST['yourPhoneNumber']) ||
-        !isset($_POST['yourMessage'])) {
-        died('We are sorry, but there appears to be a problem with the form you submitted.');       
-    }
-    */
-    
- 
-     
  
     $end_user_name = $_POST['yourName']; // required
     $end_user_email = $_POST['yourEmail']; // required
@@ -59,12 +39,6 @@
     $error_message .= 'The Comments you entered do not appear to be valid.<br />';
   }
  
-  /*
-  if(strlen($error_message) > 0) {
-    died($error_message);
-  }
-  */
- 
     $email_message = "Form details below.\n\n";
  
      
@@ -88,11 +62,11 @@ $headers = 'From: '.$end_user_email."\r\n".
   
 ?>
  
-<!-- include your own success html here -->
+<!-- HTML success message -->
  
 Thank you for contacting us. We will be in touch with you very soon.
 
  
 <?php
-
+}
 ?>
