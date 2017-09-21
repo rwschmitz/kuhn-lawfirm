@@ -125,13 +125,16 @@ html, body {
   color: #eaeaea;
   border-color: #28a745; }
 
-.contact-button-focus {
+.contact-submit-button:focus, .contact-modal-button:focus {
   outline: 0; }
 
 .contact-modal-button:hover {
   background-color: #231f20;
   color: #eaeaea;
   border-color: #231f20; }
+
+.contact-modal-button:focus {
+  outline: 0; }
 
 .disclaimer-button {
   border: 1px solid #231f20;
