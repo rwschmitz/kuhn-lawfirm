@@ -238,6 +238,16 @@
         outline: 0;
     }
 
+    .contact-modal-button {
+        @extend .contact-submit-button;
+    }
+
+    .contact-modal-button:hover {
+        background-color: $dark-color;
+        color: $light-color;
+        border-color: $dark-color;
+    }
+
     .disclaimer-button {
         border: 1px solid $dark-color;
         background-color: transparent;
