@@ -41,7 +41,7 @@ html, body {
   font-size: 10px; }
 
 .content a {
-  color: #b78fba;
+  color: #ba8f92;
   text-decoration: none;
   -webkit-transition-duration: 250ms;
   -moz-transition-duration: 250ms;
@@ -178,7 +178,7 @@ html, body {
   transition-timing-function: ease-in-out; }
 
 .nav-link:hover {
-  color: #b78fba; }
+  color: #ba8f92; }
 
 .navbar-toggler-icon {
   color: #eaeaea;
