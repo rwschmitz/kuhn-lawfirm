@@ -10,18 +10,18 @@ html, body {
 
 .heading {
   font-family: "Questrial", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #231f20; }
 
 .content {
   font-family: "Questrial", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: #231f20; }
 
 .nav-styling {
   background-color: #231f20;
   font-family: "Questrial", sans-serif;
-  font-size: 12px; }
+  font-size: 14px; }
 
 .nav-styling a {
   color: #eaeaea; }
@@ -34,7 +34,7 @@ html, body {
 
 .attorney {
   font-family: "Questrial", sans-serif;
-  font-size: 14px; }
+  font-size: 16px; }
 
 .disclaimer {
   font-family: "Questrial", sans-serif;
