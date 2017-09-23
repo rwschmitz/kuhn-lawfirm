@@ -1,5 +1,5 @@
 $(function() {
-    $(".contact-submit-button").submit(function() {
+    $(".contact-submit-button").click(function() {
         $.ajax({
             type: 'post',
             url: 'email_form.php',
