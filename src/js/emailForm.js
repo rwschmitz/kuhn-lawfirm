@@ -30,7 +30,7 @@ function checkNumber(e) {
    var number = document.getElementById("yourPhoneNumber");
 
    if (number.checkValidity() == false) {
-      alert("number broken")
+      alert("number broken");
       e.preventDefault();
       e.stopPropagation();
    } else {
@@ -43,7 +43,7 @@ function checkMessage(e) {
    var message = document.getElementById("yourMessage");
 
    if (message.checkValidity() == false) {
-      alert("message broken")
+      alert("message broken");
       e.preventDefault();
       e.stopPropagation();
    } else {
