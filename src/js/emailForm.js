@@ -30,7 +30,6 @@ function checkName(e, a) {
       e.stopPropagation();
    } else {
      a = true;
-     return a;
    }
 }
 
@@ -43,7 +42,6 @@ function checkEmail(e, b) {
       e.stopPropagation();
    } else {
      b = true;
-     return b;
    }
 
 }
@@ -57,7 +55,6 @@ function checkNumber(e, c) {
       e.stopPropagation();
    } else {
       c = true;
-      return c;
    }
 
 }
@@ -71,7 +68,6 @@ function checkMessage(e, d) {
       e.stopPropagation();
    } else {
       d = true;
-      return d;
    }
 
 }
