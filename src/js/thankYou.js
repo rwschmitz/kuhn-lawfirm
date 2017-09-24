@@ -18,6 +18,7 @@ $(function() {
                 data: $('#needs-validation').serialize(),
                 done: $('#thankYouModal').modal('show'),
              });
+             document.getElementById("needs-validation").reset();
              return false;
           }
        });
