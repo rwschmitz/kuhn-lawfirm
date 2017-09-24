@@ -81,4 +81,7 @@ form.addEventListener("submit", checkEmail, false);
 form.addEventListener("submit", checkNumber, false);
 form.addEventListener("submit", checkMessage, false);
 
-
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
