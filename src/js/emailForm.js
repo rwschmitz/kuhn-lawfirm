@@ -9,7 +9,7 @@ xhr.onreadystatechange = function() {
   if (xhr.readyState === 4) { // Request finished, response ready
      if (xhr.status === 200) { // Server has responded and everything is OK
       $(function () {
-        if (cat == true && dog == true && horse == true && mouse == false) {
+        if (cat == true && dog == true && horse == true && mouse == true) {
           $("#thankYouModal").modal('show');
        }
       });
