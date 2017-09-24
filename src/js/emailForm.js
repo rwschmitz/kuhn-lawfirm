@@ -78,7 +78,7 @@ form.addEventListener("submit", checkEmail, false);
 form.addEventListener("submit", checkNumber, false);
 form.addEventListener("submit", checkMessage, false);
 
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
+console.log(cat);
+console.log(dog);
+console.log(horse);
+console.log(mouse);
