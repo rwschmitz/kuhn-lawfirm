@@ -4,7 +4,9 @@ $('#contact-submit-button').on('submit', function(e) {
     $.ajax({
        type: "POST",
        url: email_form.php,
-       success: ("#thankYouModal").modal('show'),
+       success: function() {
+           ("#thankYouModal").modal('show');
+       }
     });
  });
  
