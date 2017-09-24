@@ -1,22 +1,17 @@
-var form = document.getElementById("needs-validation");
-var xhr = new XMLHttpRequest();
-var cat, dog, horse, mouse;
-cat = dog = horse = mouse = false;
-xhr.open('POST', 'email_form.php', true);
-xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-xhr.send("needs-validation");
-
-xhr.onreadystatechange = function() {
-  if (xhr.readyState === 4) { // Request finished, response ready
-     if (xhr.status === 200) { // Server has responded and everything is OK
-      $(function () {
-        if (cat == true && dog == true && horse == true && mouse == true) {
-          $("#thankYouModal").modal('show');
-       }
+/*
+$(function() {
+  $("#needs-validation").submit(function() {
+      $.ajax({
+          type: 'post',
+          url: 'email_form.php',
+          data: $('#needs-validation').serialize(),
+          success: function() {
+              ("#thankYouModal").modal('show');
+              
+          }
       });
-     }
-  }
-};
+  });
+});
 
 
 
@@ -81,3 +76,4 @@ console.log(cat);
 console.log(dog);
 console.log(horse);
 console.log(mouse);
+*/
