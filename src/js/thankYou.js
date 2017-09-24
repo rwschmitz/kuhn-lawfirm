@@ -1,3 +1,5 @@
+// TO DO -- IMPLEMENT JQUERY AJAX SUBMISSION W/ VANILLA JS VALIDATION
+
 /*var xhr = new XMLHttpRequest();
 xhr.open('POST', 'email_form.php', true);
 xhr.send(null);
