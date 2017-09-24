@@ -1,22 +1,4 @@
-/*
-$(function() {
-  $("#needs-validation").submit(function() {
-      $.ajax({
-          type: 'post',
-          url: 'email_form.php',
-          data: $('#needs-validation').serialize(),
-          success: function() {
-              ("#thankYouModal").modal('show');
-              
-          }
-      });
-  });
-});
-
-
-
-
-function checkName(e) {
+/*function checkName(e) {
    var name = document.getElementById("yourName");
 
    if (name.checkValidity() == false) {
@@ -24,7 +6,6 @@ function checkName(e) {
       e.preventDefault();
       e.stopPropagation();
    } else {
-     cat = true;
    }
 }
 
@@ -36,7 +17,6 @@ function checkEmail(e) {
       e.preventDefault();
       e.stopPropagation();
    } else {
-     dog = true;
    }
 
 }
@@ -49,7 +29,6 @@ function checkNumber(e) {
       e.preventDefault();
       e.stopPropagation();
    } else {
-      horse = true;
    }
 
 }
@@ -62,7 +41,6 @@ function checkMessage(e) {
       e.preventDefault();
       e.stopPropagation();
    } else {
-      mouse = true;
    }
 
 }
@@ -72,8 +50,14 @@ form.addEventListener("submit", checkEmail, false);
 form.addEventListener("submit", checkNumber, false);
 form.addEventListener("submit", checkMessage, false);
 
-console.log(cat);
-console.log(dog);
-console.log(horse);
-console.log(mouse);
-*/
+$(function() {
+  $('#needs-validation').on('submit', function(e) {
+     $.ajax({
+        type: 'POST',
+        url: 'email_form.php',
+        data: $('#needs-validation').serialize(),
+        done: $('#thankYouModal').modal('show'),
+     });
+     return false;
+  });
+});*/

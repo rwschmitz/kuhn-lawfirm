@@ -1,41 +1,23 @@
-// TO DO -- IMPLEMENT JQUERY AJAX SUBMISSION W/ VANILLA JS VALIDATION
+var form = document.getElementById("needs-validation");
+var name = document.getElementById("yourName");
+var email = document.getElementById("yourEmail");
+var number = document.getElementById("yourPhoneNumber");
+var message = document.getElementById("yourMessage");
 
 $(function() {
-    $('#needs-validation').on('submit', function(e) {
-       $.ajax({
-          type: 'POST',
-          url: 'email_form.php',
-          data: $('#needs-validation').serialize(),
-          done: $('#thankYouModal').modal('show'),
-       });
-    });
- });
- 
-
-
-
-/*$(function() {
-    $("#needs-validation").submit(function() {
-        $.ajax({
-            type: 'post',
+   $('#needs-validation').on('submit', function(e) {
+      if (name.checkValidity() == false || email.checkValidity() == false || number.checkValidity() == false || message.checkValidity() == false) {
+         alert("form broken");
+         e.preventDefault();
+         e.stopPropagation();
+      } else {
+         $.ajax({
+            type: 'POST',
             url: 'email_form.php',
             data: $('#needs-validation').serialize(),
-            success: function() {
-                ("#thankYouModal").modal('show');
-                
-            }
-        });
-    });
-});*/
-
-/*var xhr = new XMLHttpRequest();
-xhr.open('POST', 'email_form.php', true);
-xhr.send(null);
-
-xhr.onreadystatechange = function() {
-   if (xhr.readyState === 4) { // Request finished, response ready
-      if (xhr.status === 200) { // Server has responded and everything is OK
-         ("#thankYouModal").modal('show');
+            done: $('#thankYouModal').modal('show'),
+         });
+         return false;
       }
-   }
-};*/
+   });
+});
