@@ -1,12 +1,14 @@
 // TO DO -- IMPLEMENT JQUERY AJAX SUBMISSION W/ VANILLA JS VALIDATION
 
-$('#contact-submit-button').on('submit', function(e) {
-    $.ajax({
-       type: "POST",
-       url: email_form.php,
-       success: function() {
-           ("#thankYouModal").modal('show');
-       }
+$(function() {
+    $('#contact-submit-button').on('submit', function(e) {
+       $.ajax({
+          type: "POST",
+          url: email_form.php,
+          success: function() {
+             ("#thankYouModal").modal('show');
+          }
+       });
     });
  });
  
