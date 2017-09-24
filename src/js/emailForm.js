@@ -24,7 +24,7 @@ function checkName(e) {
    } else {
       return;
    }
-
+console.log(e)
 }
 
 function checkEmail(e) {
