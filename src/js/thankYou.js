@@ -6,12 +6,7 @@ $(function() {
           type: 'POST',
           url: 'email_form.php',
           data: $('#needs-validation').serialize(),
-          complete: function() {
-              ("#thankYouModal").modal('show');
-          },
-          success: function() {
-             ("#thankYouModal").modal('show');
-          }
+          done: $('#thankYouModal').modal('show'),
        });
     });
  });
