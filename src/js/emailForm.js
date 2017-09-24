@@ -1,17 +1,14 @@
 var form = document.getElementById("needs-validation");
-var a = false;
-var b = false;
-var c = false;
-var d = false;
 var xhr = new XMLHttpRequest();
-
+var cat, dog, horse, mouse;
+cat = dog = horse = mouse = false;
 xhr.open('POST', 'email_form.php', true);
 xhr.send(null);
 
 xhr.onreadystatechange = function() {
   if (xhr.readyState === 4) { // Request finished, response ready
      if (xhr.status === 200) { // Server has responded and everything is OK
-        if (a == true && b == true && c == true && d == true) {
+        if (cat == true && dog == true && horse == true && mouse == true) {
            $("#thankYouModal").modal('show');
         }
      }
@@ -21,7 +18,7 @@ xhr.onreadystatechange = function() {
 
 
 
-function checkName(e, a) {
+function checkName(e, cat) {
    var name = document.getElementById("yourName");
 
    if (name.checkValidity() == false) {
@@ -29,11 +26,12 @@ function checkName(e, a) {
       e.preventDefault();
       e.stopPropagation();
    } else {
-     a = true;
+     cat = true;
+     return cat;
    }
 }
 
-function checkEmail(e, b) {
+function checkEmail(e, dog) {
    var email = document.getElementById("yourEmail");
 
    if (email.checkValidity() == false) {
@@ -41,12 +39,13 @@ function checkEmail(e, b) {
       e.preventDefault();
       e.stopPropagation();
    } else {
-     b = true;
+     dog = true;
+     return dog;
    }
 
 }
 
-function checkNumber(e, c) {
+function checkNumber(e, horse) {
    var number = document.getElementById("yourPhoneNumber");
 
    if (number.checkValidity() == false) {
@@ -54,12 +53,13 @@ function checkNumber(e, c) {
       e.preventDefault();
       e.stopPropagation();
    } else {
-      c = true;
+      horse = true;
+      return horse;
    }
 
 }
 
-function checkMessage(e, d) {
+function checkMessage(e, mouse) {
    var message = document.getElementById("yourMessage");
 
    if (message.checkValidity() == false) {
@@ -67,7 +67,8 @@ function checkMessage(e, d) {
       e.preventDefault();
       e.stopPropagation();
    } else {
-      d = true;
+      mouse = true;
+      return mouse;
    }
 
 }
