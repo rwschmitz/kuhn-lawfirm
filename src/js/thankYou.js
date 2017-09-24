@@ -1,9 +1,11 @@
 // TO DO -- IMPLEMENT JQUERY AJAX SUBMISSION W/ VANILLA JS VALIDATION
 
 $('#contact-submit-button').on('submit', function(e) {
-    e.preventDefault();
-    var formInfo = $("#needs-validation").serialize();
-    $.post('email_form.php', formInfo);
+    $.ajax({
+       type: "POST",
+       url: email_form.php,
+       success: ("#thankYouModal").modal('show'),
+    });
  });
  
 
