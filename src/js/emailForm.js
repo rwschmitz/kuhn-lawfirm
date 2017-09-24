@@ -18,7 +18,7 @@ xhr.onreadystatechange = function() {
 
 
 
-function checkName(e, cat) {
+function checkName(e) {
    var name = document.getElementById("yourName");
 
    if (name.checkValidity() == false) {
@@ -27,11 +27,10 @@ function checkName(e, cat) {
       e.stopPropagation();
    } else {
      cat = true;
-     return cat;
    }
 }
 
-function checkEmail(e, dog) {
+function checkEmail(e) {
    var email = document.getElementById("yourEmail");
 
    if (email.checkValidity() == false) {
@@ -40,12 +39,11 @@ function checkEmail(e, dog) {
       e.stopPropagation();
    } else {
      dog = true;
-     return dog;
    }
 
 }
 
-function checkNumber(e, horse) {
+function checkNumber(e) {
    var number = document.getElementById("yourPhoneNumber");
 
    if (number.checkValidity() == false) {
@@ -54,12 +52,11 @@ function checkNumber(e, horse) {
       e.stopPropagation();
    } else {
       horse = true;
-      return horse;
    }
 
 }
 
-function checkMessage(e, mouse) {
+function checkMessage(e) {
    var message = document.getElementById("yourMessage");
 
    if (message.checkValidity() == false) {
@@ -68,7 +65,6 @@ function checkMessage(e, mouse) {
       e.stopPropagation();
    } else {
       mouse = true;
-      return mouse;
    }
 
 }
