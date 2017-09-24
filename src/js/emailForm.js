@@ -1,20 +1,27 @@
 var form = document.getElementById("needs-validation");
+var a = false;
+var b = false;
+var c = false;
+var d = false;
 var xhr = new XMLHttpRequest();
 
 xhr.open('POST', 'email_form.php', true);
 xhr.send(null);
 
 xhr.onreadystatechange = function() {
-   if (xhr.readyState === 4) { // Request finished, response ready
-      if (xhr.status === 200) { // Server has responded and everything is OK
-         $("#thankYouModal").modal('show');
-      }
-   }
+  if (xhr.readyState === 4) { // Request finished, response ready
+     if (xhr.status === 200) { // Server has responded and everything is OK
+        if (a == true && b == true && c == true && d == true) {
+           $("#thankYouModal").modal('show');
+        }
+     }
+  }
 };
 
 
 
-function checkName(e) {
+
+function checkName(e, a) {
    var name = document.getElementById("yourName");
 
    if (name.checkValidity() == false) {
@@ -22,12 +29,12 @@ function checkName(e) {
       e.preventDefault();
       e.stopPropagation();
    } else {
-      return;
+     a = true;
+     return a;
    }
-console.log(e)
 }
 
-function checkEmail(e) {
+function checkEmail(e, b) {
    var email = document.getElementById("yourEmail");
 
    if (email.checkValidity() == false) {
@@ -35,12 +42,13 @@ function checkEmail(e) {
       e.preventDefault();
       e.stopPropagation();
    } else {
-      return;
+     b = true;
+     return b;
    }
 
 }
 
-function checkNumber(e) {
+function checkNumber(e, c) {
    var number = document.getElementById("yourPhoneNumber");
 
    if (number.checkValidity() == false) {
@@ -48,12 +56,13 @@ function checkNumber(e) {
       e.preventDefault();
       e.stopPropagation();
    } else {
-      return;
+      c = true;
+      return c;
    }
 
 }
 
-function checkMessage(e) {
+function checkMessage(e, d) {
    var message = document.getElementById("yourMessage");
 
    if (message.checkValidity() == false) {
@@ -61,7 +70,8 @@ function checkMessage(e) {
       e.preventDefault();
       e.stopPropagation();
    } else {
-      return;
+      d = true;
+      return d;
    }
 
 }
