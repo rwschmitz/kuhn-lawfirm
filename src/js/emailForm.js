@@ -4,7 +4,7 @@ var cat, dog, horse, mouse;
 cat = dog = horse = mouse = false;
 xhr.open('POST', 'email_form.php', true);
 xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-xhr.send(null);
+xhr.send("needs-validation");
 
 xhr.onreadystatechange = function() {
   if (xhr.readyState === 4) { // Request finished, response ready
