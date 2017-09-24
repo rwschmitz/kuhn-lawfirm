@@ -1,4 +1,18 @@
 var form = document.getElementById("needs-validation");
+var xhr = new XMLHttpRequest();
+
+xhr.open('POST', 'email_form.php', true);
+xhr.send(null);
+
+xhr.onreadystatechange = function() {
+   if (xhr.readyState === 4) { // Request finished, response ready
+      if (xhr.status === 200) { // Server has responded and everything is OK
+         ("#thankYouModal").modal('show');
+      }
+   }
+};
+
+
 
 function checkName(e) {
    var name = document.getElementById("yourName");
@@ -56,3 +70,5 @@ form.addEventListener("submit", checkName, false);
 form.addEventListener("submit", checkEmail, false);
 form.addEventListener("submit", checkNumber, false);
 form.addEventListener("submit", checkMessage, false);
+
+

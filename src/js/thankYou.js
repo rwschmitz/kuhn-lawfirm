@@ -1,4 +1,4 @@
-var xhr = new XMLHttpRequest();
+/*var xhr = new XMLHttpRequest();
 xhr.open('POST', 'email_form.php', true);
 xhr.send(null);
 
@@ -8,7 +8,7 @@ xhr.onreadystatechange = function() {
          ("#thankYouModal").modal('show');
       }
    }
-};
+};*/
 
 
 
