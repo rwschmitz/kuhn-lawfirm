@@ -4,7 +4,7 @@ var email = document.getElementById("yourEmail");
 var number = document.getElementById("yourPhoneNumber");
 var message = document.getElementById("yourMessage");
 
-$(document).ready(function() {
+$(function() {
    $(function() {
       $('#needs-validation').on('submit', function(e) {
          if (name.checkValidity() == false || email.checkValidity() == false || number.checkValidity() == false || message.checkValidity() == false) {
