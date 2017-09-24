@@ -3,8 +3,9 @@
 $(function() {
     $('#contact-submit-button').on('submit', function(e) {
        $.ajax({
-          type: "POST",
-          url: email_form.php,
+          type: 'POST',
+          url: 'email_form.php',
+          data: $('#needs-validation').serialize(),
           success: function() {
              ("#thankYouModal").modal('show');
           }
