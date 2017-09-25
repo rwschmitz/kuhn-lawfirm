@@ -217,9 +217,20 @@ html, body {
 .nav-link:hover {
   color: #f28500; }
 
+.navbar-toggler {
+  padding: 0.25rem;
+  font-size: 1rem;
+  line-height: 1;
+  background: 0 0;
+  border: none;
+  border-radius: 0;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem; }
+
 .navbar-toggler-icon {
   color: #eaeaea;
-  height: 1.0em; }
+  height: 1.0em;
+  margin-right: 1rem; }
 
 .form-control {
   font-size: 0.6rem; }

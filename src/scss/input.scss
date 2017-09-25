@@ -355,9 +355,21 @@
         color: $link-color;
     }
 
+    .navbar-toggler {
+        padding: 0.25rem;
+        font-size: 1rem;
+        line-height: 1;
+        background: 0 0;
+        border: none;
+        border-radius: 0;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
+
     .navbar-toggler-icon {
         color: $light-color;
         height: 1.0em;
+        margin-right: 1rem;
     }
 
     .form-control {
