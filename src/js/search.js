@@ -1,19 +1,21 @@
 $(function() {
-  var $context = $(".context");
-  var $form = $("#dog");
-  var $button = $form.find("button[name='search']");
-  var $input = $form.find("input[name='keyword']");
+  $(function() {
+     var $context = $(".context");
+     var $form = $("#dog");
+     var $button = $form.find("button[name='search']");
+     var $input = $form.find("input[name='keyword']");
 
-  $button.on("click.search", function() {
+     $button.on("click.search", function() {
 
-    // Determine search term
-    var searchTerm = $input.val();
+        // Determine search term
+        var searchTerm = $input.val();
 
-    // Remove old highlights and highlight
-    // new search term afterwards
-    $context.removeHighlight();
-    $context.highlight(searchTerm);
+        // Remove old highlights and highlight
+        // new search term afterwards
+        $context.removeHighlight();
+        $context.highlight(searchTerm);
 
+     });
+     $button.trigger("click.search");
   });
-  $button.trigger("click.search");
 });
