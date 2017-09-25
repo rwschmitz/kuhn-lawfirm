@@ -25,6 +25,7 @@
     $bright-color: #92ba8f;
     $link-color:  #f28500;
     $submit-color: #28a745;
+    $invalid-info-color: #dc3545;
 
     $animation-fill-mode: forwards;
 
@@ -122,6 +123,17 @@
     .attorney {
         font-family: $attorney-font;
         font-size: $attorney-font-size;
+    }
+
+    .invalid-info {
+        display: none;
+        margin-top: .25rem;
+        font-size: .875rem;
+        color: $invalid-info-color;
+    }
+
+    .invalid-name, .invalid-email, .invalid-number, .invalid-message {
+        @extend .invalid-info;
     }
 
     .disclaimer {

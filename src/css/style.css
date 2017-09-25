@@ -36,6 +36,12 @@ html, body {
   font-family: "Questrial", sans-serif;
   font-size: 16px; }
 
+.invalid-info, .invalid-name, .invalid-email, .invalid-number, .invalid-message {
+  display: none;
+  margin-top: .25rem;
+  font-size: .875rem;
+  color: #dc3545; }
+
 .disclaimer {
   font-family: "Questrial", sans-serif;
   font-size: 10px; }
