@@ -18,13 +18,19 @@ html, body {
   font-size: 14px;
   color: #231f20; }
 
-.nav-styling {
+.nav-styling, .nav-buttons {
   background-color: #231f20;
   font-family: "Questrial", sans-serif;
   font-size: 14px; }
 
-.nav-styling a {
+.nav-styling a, .nav-buttons a {
   color: #eaeaea; }
+
+.nav-buttons {
+  color: #eaeaea; }
+
+.nav-buttons:hover {
+  color: #f28500; }
 
 .icons {
   font-size: 24px; }

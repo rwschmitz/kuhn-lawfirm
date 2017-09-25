@@ -114,6 +114,15 @@
         color: $light-color;
     }
 
+    .nav-buttons {
+        @extend .nav-styling;
+        color: $light-color;
+    }
+
+    .nav-buttons:hover {
+        color: $link-color;
+    }
+
     .icons {
         font-size: $icon-size;
     }
