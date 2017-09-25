@@ -28,7 +28,8 @@ html, body {
 
 .nav-buttons {
   color: #eaeaea;
-  border: none; }
+  border: none;
+  cursor: pointer; }
 
 .nav-buttons:hover {
   color: #f28500;

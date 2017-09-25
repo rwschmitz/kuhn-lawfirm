@@ -118,6 +118,7 @@
         @extend .nav-styling;
         color: $light-color;
         border: none;
+        cursor: pointer;
     }
 
     .nav-buttons:hover {
