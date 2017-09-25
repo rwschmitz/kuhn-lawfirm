@@ -141,7 +141,15 @@ html, body {
 .si-5 {
   display: block; }
 
-.contact-submit-button, .contact-modal-button {
+.resource-modal-button:hover {
+  background-color: #231f20;
+  color: #eaeaea;
+  border-color: #231f20; }
+
+.resource-modal-button:focus {
+  outline: 0; }
+
+.contact-submit-button, .resource-modal-button, .contact-modal-button {
   background-color: transparent;
   color: #231f20;
   border: 1px solid #231f20;
@@ -160,12 +168,12 @@ html, body {
   -o-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out; }
 
-.contact-submit-button:hover, .contact-modal-button:hover {
+.contact-submit-button:hover, .resource-modal-button:hover, .contact-modal-button:hover {
   background-color: #28a745;
   color: #eaeaea;
   border-color: #28a745; }
 
-.contact-submit-button:focus, .contact-modal-button:focus {
+.contact-submit-button:focus, .resource-modal-button:focus, .contact-modal-button:focus {
   outline: 0; }
 
 .contact-modal-button:hover {
