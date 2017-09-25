@@ -25,8 +25,10 @@
     $bright-color: #92ba8f;
     $link-color:  #f28500;
     $submit-color: #28a745;
+    $default-info-color: rgba(0,0,0,0.15);
     $invalid-info-color: #dc3545;
-
+    $valid-info-color: #28a745;
+    
     $animation-fill-mode: forwards;
 
     // Site wide variables end
@@ -135,6 +137,21 @@
     .invalid-name, .invalid-email, .invalid-number, .invalid-message {
         @extend .invalid-info;
     }
+
+    .default-border {
+        display: block;
+        border: 1px solid $default-info-color;
+     }
+     
+     .valid-border {
+        display: block;
+        border: 1px solid $valid-info-color;
+     }
+     
+     .invalid-border {
+        display: block;
+        border: 1px solid $invalid-info-color;
+     }
 
     .disclaimer {
         font-family: $disclaimer-font;
