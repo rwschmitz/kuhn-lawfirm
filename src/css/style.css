@@ -1,5 +1,5 @@
 html, body {
-  background: linear-gradient(135deg, #92ba8f, #eaeaea);
+  background: linear-gradient(to bottom right, #92ba8f, #eaeaea);
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
@@ -44,6 +44,9 @@ html, body {
   -ms-transition-timing-function: ease-in-out;
   -o-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out; }
+
+.nav-buttons:focus {
+  outline: 0; }
 
 .icons {
   font-size: 24px; }

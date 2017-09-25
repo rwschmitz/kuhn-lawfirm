@@ -79,7 +79,7 @@
     // Sitewide
 
     html, body {
-        background: linear-gradient(135deg, $bright-color, $light-color);
+        background: linear-gradient(to bottom right, $bright-color, $light-color);
         background-repeat: no-repeat;
         background-attachment: fixed;
         margin: 0;
@@ -134,6 +134,10 @@
         -ms-transition-timing-function: $link-hover-timing-function;
         -o-transition-timing-function: $link-hover-timing-function;
         transition-timing-function: $link-hover-timing-function;
+    }
+
+    .nav-buttons:focus {
+        outline: 0;
     }
 
     .icons {
