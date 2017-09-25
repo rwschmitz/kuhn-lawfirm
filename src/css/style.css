@@ -184,11 +184,6 @@ html, body {
 .open-resources-button:focus {
   outline: 0; }
 
-.open-resources-button-active {
-  background-color: #eaeaea;
-  color: #231f20;
-  border-radius: 0px 10px 0px 10px; }
-
 .resource-modal-button:hover {
   background-color: #231f20;
   color: #eaeaea;
