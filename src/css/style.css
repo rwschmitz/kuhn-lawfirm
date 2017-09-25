@@ -229,6 +229,9 @@ html, body {
 .invalid-feedback {
   font-size: 10px; }
 
+span.highlight {
+  background: #f1c40f; }
+
 @media (min-width: 1200px) {
   html {
     zoom: 1.35; } }
