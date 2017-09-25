@@ -1,6 +1,6 @@
 $(function() {
     var $context = $(".context");
-    var $form = $("#searchInput");
+    var $form = $("#dog");
     var $button = $form.find("button[name='search']");
     var $input = $form.find("input[name='keyword']");
   
