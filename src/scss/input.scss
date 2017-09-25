@@ -104,26 +104,14 @@
         color: $dark-color;
     }
 
-    .nav-buttons {
+    .nav-styling {
         background-color: $dark-color;
-        color: $light-color;
         font-family: $nav-font;
         font-size: $nav-font-size;
     }
 
-    .nav-buttons:hover {
-        color: $link-color;
-        text-decoration: none;
-        -webkit-transition-duration: $link-hover-transition-duration;
-        -moz-transition-duration: $link-hover-transition-duration;
-        -ms-transition-duration: $link-hover-transition-duration;
-        -o-transition-duration: $link-hover-transition-duration;
-        transition-duration: $link-hover-transition-duration;
-        -webkit-transition-timing-function: $link-hover-timing-function;
-        -moz-transition-timing-function: $link-hover-timing-function;
-        -ms-transition-timing-function: $link-hover-timing-function;
-        -o-transition-timing-function: $link-hover-timing-function;
-        transition-timing-function: $link-hover-timing-function;
+    .nav-styling a {
+        color: $light-color;
     }
 
     .icons {
