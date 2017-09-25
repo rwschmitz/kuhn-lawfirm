@@ -263,20 +263,6 @@
         display: block;
     }
 
-    .resource-modal-button {
-        @extend .contact-submit-button;
-    }
-
-    .resource-modal-button:hover {
-        background-color: $dark-color;
-        color: $light-color;
-        border-color: $dark-color;
-    }
-
-    .resource-modal-button:focus {
-        outline: 0;
-    }
-
     .contact-submit-button {
         background-color: transparent;
         color: $dark-color;
@@ -318,6 +304,20 @@
     }
 
     .contact-modal-button:focus {
+        outline: 0;
+    }
+
+    .resource-modal-button {
+        @extend .contact-submit-button;
+    }
+
+    .resource-modal-button:hover {
+        background-color: $dark-color;
+        color: $light-color;
+        border-color: $dark-color;
+    }
+
+    .resource-modal-button:focus {
         outline: 0;
     }
 
