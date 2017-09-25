@@ -39,7 +39,7 @@ html, body {
 .invalid-info, .invalid-name, .invalid-email, .invalid-number, .invalid-message {
   display: none;
   margin-top: .25rem;
-  font-size: .875rem;
+  font-size: .7rem;
   color: #dc3545; }
 
 .default-border {
