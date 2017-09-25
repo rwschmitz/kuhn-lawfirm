@@ -307,6 +307,20 @@
         outline: 0;
     }
 
+    .open-resources-button {
+        @extend .pa-button;
+    }
+
+    .open-resources-button:hover {
+        background-color: $light-color;
+        color: $dark-color;
+        border-radius: 0px 10px 0px 10px;
+    }
+
+    .open-resources-button:focus {
+        outline: 0;
+    }
+
     .resource-modal-button {
         @extend .contact-submit-button;
     }
