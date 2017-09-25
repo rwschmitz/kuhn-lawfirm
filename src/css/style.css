@@ -226,7 +226,8 @@ html, body {
 
 .btn {
   padding: 0.3rem 0.75rem;
-  font-size: 0.75rem; }
+  font-size: 0.75rem;
+  cursor: pointer; }
 
 .btn-outline-success {
   color: #92ba8f;
