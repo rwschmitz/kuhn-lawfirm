@@ -17,7 +17,7 @@ $(function() {
  });
  
  $(function() {
-    $('#gopracticeAreas').click(function() {
+    $('#goPracticeAreas').click(function() {
        $('html, body').animate({
           scrollTop: $('#practice-areas').offset().top
        }, 1000);
