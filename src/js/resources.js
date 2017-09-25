@@ -1,3 +1,5 @@
 $(function() {
-    $("#resource1").modal('show');
+    $("resource1").click(function() {
+        $("#resourceModal1").modal('show');
+    });
 });
