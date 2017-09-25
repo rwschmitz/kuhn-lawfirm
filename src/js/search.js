@@ -18,7 +18,6 @@ $(function() {
         $context.highlight(searchTerm);
         e.preventDefault();
         e.stopPropagation();
-        document.getElementById("#keyword").reset();
       }
     })
   });
