@@ -321,6 +321,12 @@
         outline: 0;
     }
 
+    .open-resources-button-active {
+        background-color: $light-color;
+        color: $dark-color;
+        border-radius: 0px 10px 0px 10px;
+    }
+
     .resource-modal-button {
         @extend .contact-submit-button;
     }

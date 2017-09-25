@@ -5,3 +5,9 @@ $(function() {
         $("#resourceModal1").modal('show');
     });
 });
+
+$(function() {
+    $(".open-resources-button").click(function() {
+        $(".open-resources-button").toggleClass('open-resources-button-active');
+    });
+ });
