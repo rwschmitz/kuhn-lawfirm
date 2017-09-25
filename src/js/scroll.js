@@ -4,7 +4,7 @@ $(function() {
     $('#goHome').click(function() {
        $('html, body').animate({
           scrollTop: $('#home').offset().top
-       }, 500);
+       }, 1500);
     });
  });
  
@@ -12,7 +12,7 @@ $(function() {
     $('#goAbout').click(function() {
        $('html, body').animate({
           scrollTop: $('#about').offset().top
-       }, 500);
+       }, 1500);
     });
  });
  
@@ -20,7 +20,7 @@ $(function() {
     $('#goPracticeAreas').click(function() {
        $('html, body').animate({
           scrollTop: $('#practice-areas').offset().top
-       }, 500);
+       }, 1500);
     });
  });
  
@@ -28,7 +28,7 @@ $(function() {
     $('#goAttorneys').click(function() {
        $('html, body').animate({
           scrollTop: $('#attorneys').offset().top
-       }, 500);
+       }, 1500);
     });
  });
  
@@ -36,7 +36,7 @@ $(function() {
     $('#goResources').click(function() {
        $('html, body').animate({
           scrollTop: $('#resources').offset().top
-       }, 500);
+       }, 1500);
     });
  });
 
@@ -44,7 +44,7 @@ $(function() {
     $('#goContact').click(function() {
        $('html, body').animate({
           scrollTop: $('#contact').offset().top
-       }, 500);
+       }, 1500);
     });
  });
 
@@ -52,6 +52,6 @@ $(function() {
     $('#goDisclaimer').click(function() {
        $('html, body').animate({
           scrollTop: $('#disclaimer').offset().top
-       }, 500);
+       }, 1500);
     });
  });
