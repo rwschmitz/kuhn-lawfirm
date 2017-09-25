@@ -282,8 +282,4 @@ html, body {
 span.highlight {
   background: #f1c40f; }
 
-@media (min-width: 1200px) {
-  html {
-    zoom: 1.35; } }
-
 /*# sourceMappingURL=style.css.map */
