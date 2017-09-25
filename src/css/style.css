@@ -27,10 +27,22 @@ html, body {
   color: #eaeaea; }
 
 .nav-buttons {
-  color: #eaeaea; }
+  color: #eaeaea;
+  border: none; }
 
 .nav-buttons:hover {
-  color: #f28500; }
+  color: #f28500;
+  text-decoration: none;
+  -webkit-transition-duration: 250ms;
+  -moz-transition-duration: 250ms;
+  -ms-transition-duration: 250ms;
+  -o-transition-duration: 250ms;
+  transition-duration: 250ms;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -ms-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out; }
 
 .icons {
   font-size: 24px; }
