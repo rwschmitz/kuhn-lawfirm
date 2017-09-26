@@ -80,6 +80,37 @@ html, body {
   font-family: "Questrial", sans-serif;
   font-size: 10px; }
 
+.mobile-pa-button {
+  border: 1px solid #231f20;
+  background-color: rgba(234, 234, 234, 0.25);
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  -webkit-transition-duration: 250ms;
+  -moz-transition-duration: 250ms;
+  -ms-transition-duration: 250ms;
+  -o-transition-duration: 250ms;
+  transition-duration: 250ms;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -ms-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out; }
+
+.mobile-pa-button:hover {
+  background-color: #eaeaea;
+  color: #231f20;
+  border-radius: 0px 10px 0px 10px; }
+
+.mobile-pa-button:focus {
+  outline: 0; }
+
+.mobile-pa-button-active {
+  background-color: #eaeaea;
+  color: #231f20;
+  border-radius: 0px 10px 0px 10px; }
+
 .content a {
   color: #f28500;
   text-decoration: none;

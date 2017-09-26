@@ -186,6 +186,41 @@
 
     // Mobile only
 
+    .mobile-pa-button {
+        border: 1px solid $dark-color;
+        background-color: $light-color-trans;
+        cursor: pointer;
+        padding: 10px;
+        margin: 10px;
+        width: 100%;
+        -webkit-transition-duration: $pa-hover-transition-duration;
+        -moz-transition-duration: $pa-hover-transition-duration;
+        -ms-transition-duration: $pa-hover-transition-duration;
+        -o-transition-duration: $pa-hover-transition-duration;
+        transition-duration: $pa-hover-transition-duration;
+        -webkit-transition-timing-function: $pa-hover-timing-function;
+        -moz-transition-timing-function: $pa-hover-timing-function;
+        -ms-transition-timing-function: $pa-hover-timing-function;
+        -o-transition-timing-function: $pa-hover-timing-function;
+        transition-timing-function: $pa-hover-timing-function;
+    }
+
+    .mobile-pa-button:hover {
+        background-color: $light-color;
+        color: $dark-color;
+        border-radius: 0px 10px 0px 10px;
+    }
+
+    .mobile-pa-button:focus {
+        outline: 0;
+    }
+
+    .mobile-pa-button-active {
+        background-color: $light-color;
+        color: $dark-color;
+        border-radius: 0px 10px 0px 10px;
+    }
+
     // Desktop only
 
     .content a {
