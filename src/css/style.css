@@ -102,6 +102,7 @@ html, body {
   background-color: rgba(234, 234, 234, 0.25);
   cursor: pointer;
   padding: 10px;
+  margin: 10px;
   -webkit-transition-duration: 250ms;
   -moz-transition-duration: 250ms;
   -ms-transition-duration: 250ms;
