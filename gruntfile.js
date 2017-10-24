@@ -50,7 +50,7 @@ module.exports = function(grunt) {
             build: {
                 // Specify which files to minify
                 files: {
-                    'dist/index.html' : 'src/index.html'
+                    'dist/index.html' : 'index.html'
                 }
             }
 
