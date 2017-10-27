@@ -55,13 +55,11 @@ function displayInfo (e) {
     for (var i = 0; i < paArr.length; i++) {
         if(e.target === paArr[i]) {
             paArr[i].classList.add("pa-button-active");
-            $(".si-" + [i+1]).fadeIn(1000).text(paInfo[i]);   
-            console.log("show");
+            $(".si-" + [i+1]).fadeIn(1000).text(paInfo[i]);
         }
         if(e.target !== paArr[i] && paArr[i].classList.value !== "pa-button pa-" + [i+1] + "pa-button-active") {
             paArr[i].classList.remove("pa-button-active");
-            $(".si-" + [i+1]).hide().text(paInfo[i]);   
-            console.log("remove");
+            $(".si-" + [i+1]).hide().text(paInfo[i]);
         }
     }
 }
